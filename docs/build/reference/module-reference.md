@@ -1,8 +1,8 @@
 ---
 title: "/reference (Use named module IFC)"
 description: "Use the /reference compiler option to create module header units for the header-name or include files specified."
-ms.date: 04/13/2020
-f1_keywords: ["/reference"]
+ms.date: 02/17/2022
+f1_keywords: ["/reference", "VC.Project.VCCLCompilerTool.AdditionalModuleDependencies"]
 helpviewer_keywords: ["/reference", "Use named module IFC"]
 ---
 # `/reference` (Use named module IFC)
@@ -24,7 +24,7 @@ A valid name of an exported primary module interface unit name or full module pa
 
 ## Remarks
 
-In most cases you won't need to specify this switch because  the project system discovers module dependencies within a solution automatically.
+In most cases, you won't need to specify this switch because the project system discovers module dependencies within a solution automatically.
 
 The **`/reference`** compiler option requires you enable the [`/std:c++20`](std-specify-language-standard-version.md) or later compiler option (such as **`/std:c++latest`**). The **`/reference`** option is available starting in Visual Studio 2019 version 16.10.
 
@@ -76,6 +76,7 @@ cl ... /std:c++latest /reference m=m.ifc /reference M:Part1=m-part.ifc /referenc
 
 ## See also
 
+[`/scanDependencies` (List module dependencies in standard form)](scandependencies.md)\
 [`/sourceDependencies:directives` (List module and header unit dependencies)](sourcedependencies-directives.md)\
 [`/headerUnit` (Use header unit IFC)](headerunit.md)\
 [`/exportHeader` (Create header units)](module-exportheader.md)

@@ -85,6 +85,8 @@ items:
       href: ../build/walkthrough-header-units.md
     - name: "Walkthrough: Import STL libraries as header units"
       href: ../build/walkthrough-import-stl-header-units.md
+    - name: C++ header unit.json reference
+      href: ../build/reference/header-unit-json-reference.md
 - name: Precompiled header files
   href: ../build/creating-precompiled-header-files.md
 - name: C++ release builds
@@ -662,6 +664,8 @@ items:
                       href: ../build/reference/oy-frame-pointer-omission.md
                 - name: /openmp (Enable OpenMP 2.0 support)
                   href: ../build/reference/openmp-enable-openmp-2-0-support.md
+                - name: /options:strict (Unrecognized compiler options are errors)
+                  href: ../build/reference/options-strict.md
                 - name: /P (Preprocess to a file)
                   href: ../build/reference/p-preprocess-to-a-file.md
                 - name: /permissive- (Standards conformance)
@@ -695,6 +699,8 @@ items:
                       href: ../build/reference/qvec-report-auto-vectorizer-reporting-level.md
                 - name: /RTC (Run-time error checks)
                   href: ../build/reference/rtc-run-time-error-checks.md
+                - name: /scanDependencies (List module dependencies in standard form)
+                  href: ../build/reference/scandependencies.md
                 - name: /sdl (Enable additional security checks)
                   href: ../build/reference/sdl-enable-additional-security-checks.md
                 - name: /showIncludes (List include files)
@@ -713,7 +719,7 @@ items:
                   href: ../build/reference/translateinclude.md
                 - name: /U, /u (Undefine symbols)
                   href: ../build/reference/u-u-undefine-symbols.md
-                - name: /utf-8 (Set source and executable character sets to UTF-8)
+                - name: /utf-8 (Set source and execution character sets to UTF-8)
                   href: ../build/reference/utf-8-set-source-and-executable-character-sets-to-utf-8.md
                 - name: /V (Version number)
                   href: ../build/reference/v-version-number.md
@@ -796,6 +802,8 @@ items:
                       href: ../build/reference/zc-rvaluecast-enforce-type-conversion-rules.md
                     - name: "/Zc:sizedDealloc (Enable global sized deallocation functions)"
                       href: ../build/reference/zc-sizeddealloc-enable-global-sized-dealloc-functions.md
+                    - name: "/Zc:static_assert (Strict static_assert handling)"
+                      href: ../build/reference/zc-static-assert.md
                     - name: "/Zc:strictStrings (Disable string literal type conversion)"
                       href: ../build/reference/zc-strictstrings-disable-string-literal-type-conversion.md
                     - name: "/Zc:ternary (Enforce conditional operator rules)"

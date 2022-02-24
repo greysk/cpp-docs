@@ -284,7 +284,7 @@ For a summary of new features and bug fixes in Visual Studio version 16.1, see [
 ### C++ compiler
 
 - These C++20 features have been implemented in the C++ compiler, available under **`/std:c++latest`** (or **`/std:c++20`** starting in Visual Studio 2019 version 16.11):
-  - Increased ability to find function templates via argument-dependent lookup for function call expressions with explicit template arguments ([P0846R0](http://wg21.link/p0846r0)).
+  - Increased ability to find function templates via argument-dependent lookup for function call expressions with explicit template arguments ([P0846R0](https://wg21.link/p0846r0)).
   - Designated initialization ([P0329R4](https://wg21.link/p0329r4)), which allows specific members to be selected in aggregate initialization, for example, by using the `Type t { .member = expr }` syntax.
 
 - Lambda support has been overhauled, addressing a large number of long-standing bugs. This change is enabled by default when using **`/std:c++20`** or **`/std:c++latest`**. In **`/std:c++17`** language mode and under the default (**`/std:c++14`** ) mode, the new parser can be enabled by using [`/Zc:lambda`](../build/reference/zc-lambda.md) in Visual Studio 2019 version 16.9 or later (previously available as **`/experimental:newLambdaProcessor`** beginning in Visual Studio 2019 version 16.3), for example, `/std:c++17 /Zc:lambda`.
@@ -381,7 +381,7 @@ Improved analysis with [`/Qspectre`](../build/reference/qspectre.md) for providi
 
 - Added a new inlining command-line switch **`/Ob3`**, which is a more aggressive version of **`/Ob2`**. **`/O2`** (optimize the binary for speed) still implies **`/Ob2`** by default. If you find that the compiler doesn't inline aggressively enough, consider passing **`/O2 -Ob3`**.
 
-- We've added support for Short Vector Math Library (SVML) intrinsic functions. These functions compute the 128-bit, 256-bit, or 512-bit vector equivalents. We added them to support hand vectorization of loops with calls to math library functions, and certain other operations like integer division. See the [Intel Intrinsic Guide](https://software.intel.com/sites/landingpage/IntrinsicsGuide/#!=undefined&techs=SVML) for definitions of the supported functions.
+- We've added support for Short Vector Math Library (SVML) intrinsic functions. These functions compute the 128-bit, 256-bit, or 512-bit vector equivalents. We added them to support hand vectorization of loops with calls to math library functions, and certain other operations like integer division. See the [Intel Intrinsic Guide](https://www.intel.com/content/www/us/en/docs/intrinsics-guide/index.html#!=undefined&techs=SVML) for definitions of the supported functions.
 
 - New and improved optimizations:
 
