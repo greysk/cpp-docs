@@ -1,15 +1,13 @@
 ---
 description: "Learn more about: leap_second_info struct"
 title: "leap_second_info struct"
-ms.date: 06/07/2021
+ms.date: 05/31/2022
 f1_keywords: ["chrono/std::chrono::leap_second_info", "chrono/std::chrono::leap_second_info::is_leap_second", "chrono/std::chrono::leap_second_info::elapsed"]
 helpviewer_keywords: ["std::chrono [C++], leap_second_info struct", "std::chrono::leap_second_info::date function", "std::chrono::leap_second_info::value function"]
 ---
 # `leap_second_info` struct
 
 Call [`get_leap_second_info`](./chrono-functions.md#std-chrono-get-leap-second-info) to get a `leap_second_info`. This type only has public data members. It doesn't have base classes or members other than the ones specified.
-
-Microsoft C++ supports the `leap_second_info` struct starting in Visual Studio 2019 version 16.10. The `leap_second_info` struct is a C++20 feature. The [`/std:c++latest`](../build/reference/std-specify-language-standard-version.md) compiler option is required.
 
 ## Syntax
 
@@ -27,6 +25,10 @@ struct leap_second_info; // C++20
 ## Requirements
 
 **Header:** `<chrono>`
+
+Microsoft C++ supports the `leap_second` class starting in Visual Studio 2019 version 16.10. The `leap_second` class is a C++20 feature. The [`/std:c++latest`](../build/reference/std-specify-language-standard-version.md) compiler option is required.
+
+An international standards body specifies when new leap seconds should be accounted for. A database of these changes is available for Windows 10 version 1809 and later, and Windows Server 2019 and later.
 
 **Namespace:** `std::chrono`
 

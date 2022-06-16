@@ -1,15 +1,13 @@
 ---
 description: "Learn more about: leap_second class"
 title: "leap_second class"
-ms.date: 06/7/2021
+ms.date: 05/31/2022
 f1_keywords: ["chrono/std::chrono::leap_second", "chrono/std::chrono::leap_second::date", "chrono/std::chrono::leap_second::value"]
 helpviewer_keywords: ["std::chrono [C++], leap_second class", "std::chrono::leap_second::date function", "std::chrono::leap_second::value function"]
 ---
 # `leap_second` class
 
 A `leap_second` represents a date and a value for an inserted leap second. The library creates `leap_second` objects as part of its time zone database initialization. It provides **`const`** access to the created objects. You can't construct or copy a `leap_second` object, and use of the default move constructor or default move assignment operator results in undefined behavior.
-
-Microsoft C++ supports the `leap_second` class starting in Visual Studio 2019 version 16.10. The `leap_second` class is a C++20 feature. The [`/std:c++latest`](../build/reference/std-specify-language-standard-version.md) compiler option is required.
 
 ## Syntax
 
@@ -28,6 +26,10 @@ class leap_second  // Since C++20
 ## Requirements
 
 **Header:** `<chrono>`
+
+Microsoft C++ supports the `leap_second` class starting in Visual Studio 2019 version 16.10. The `leap_second` class is a C++20 feature. The [`/std:c++latest`](../build/reference/std-specify-language-standard-version.md) compiler option is required.
+
+An international standards body specifies when new leap seconds should be accounted for. A database of these changes was added starting in Windows 10 version 1809 and later, and Windows Server 2019 and later.
 
 **Namespace:** `std::chrono`
 

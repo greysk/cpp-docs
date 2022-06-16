@@ -285,16 +285,7 @@ items:
     - name: "How to: Build isolated applications to consume COM components"
       href: ../build/how-to-build-isolated-applications-to-consume-com-components.md
     - name: Understanding manifest generation for C/C++ programs
-      expanded: false
-      items: 
-        - name: Understanding manifest generation for C/C++ programs
-          href: ../build/understanding-manifest-generation-for-c-cpp-programs.md
-        - name: Manifest generation in Visual Studio
-          href: ../build/manifest-generation-in-visual-studio.md
-        - name: Manifest generation at the command line
-          href: ../build/manifest-generation-at-the-command-line.md
-        - name: "How to: Embed a manifest inside a C/C++ application"
-          href: ../build/how-to-embed-a-manifest-inside-a-c-cpp-application.md
+      href: ../build/understanding-manifest-generation-for-c-cpp-programs.md
     - name: Troubleshooting C/C++ isolated applications and side-by-side assemblies
       href: ../build/troubleshooting-c-cpp-isolated-applications-and-side-by-side-assemblies.md
 - name: Configure MSVC for 64-bit, x64 targets
@@ -308,10 +299,10 @@ items:
       href: ../build/how-to-enable-a-64-bit-visual-cpp-toolset-on-the-command-line.md
     - name: Common MSVC 64-bit migration issues
       href: ../build/common-visual-cpp-64-bit-migration-issues.md
-    - name: x64 software conventions
+    - name: x64 ABI conventions
       expanded: false
       items: 
-        - name: x64 software conventions
+        - name: Overview of x64 ABI conventions
           href: ../build/x64-software-conventions.md
         - name: x64 calling convention
           href: ../build/x64-calling-convention.md
@@ -332,6 +323,8 @@ items:
       href: ../build/overview-of-arm-abi-conventions.md
     - name: Overview of ARM64 ABI conventions
       href: ../build/arm64-windows-abi-conventions.md
+    - name: Overview of ARM64EC ABI conventions
+      href: ../build/arm64ec-windows-abi-conventions.md
     - name: ARM exception handling
       href: ../build/arm-exception-handling.md
     - name: ARM64 exception handling
@@ -621,6 +614,10 @@ items:
                   href: ../build/reference/hotpatch-create-hotpatchable-image.md
                 - name: /I (Additional include directories)
                   href: ../build/reference/i-additional-include-directories.md
+                - name: /interface (treat input file as a module interface unit)
+                  href: ../build/reference/interface.md
+                - name: /internalPartition (treat the input file as an internal partition unit.)
+                  href: ../build/reference/internal-partition.md
                 - name: /J (Default char type is unsigned)
                   href: ../build/reference/j-default-char-type-is-unsigned.md
                 - name: /JMC (Just My Code debugging)
@@ -701,7 +698,7 @@ items:
                   href: ../build/reference/rtc-run-time-error-checks.md
                 - name: /scanDependencies (List module dependencies in standard form)
                   href: ../build/reference/scandependencies.md
-                - name: /sdl (Enable additional security checks)
+                - name: /sdl (Enable more security checks)
                   href: ../build/reference/sdl-enable-additional-security-checks.md
                 - name: /showIncludes (List include files)
                   href: ../build/reference/showincludes-list-include-files.md
@@ -1119,10 +1116,10 @@ items:
               href: ../build/reference/error-handling-and-notification.md
             - name: Understand the delay load helper function
               href: ../build/reference/understanding-the-helper-function.md
-    - name: Additional MSVC build tools
+    - name: Other MSVC build tools
       expanded: false
       items: 
-        - name: Additional MSVC build tools
+        - name: Other MSVC build tools
           href: ../build/reference/c-cpp-build-tools.md
         - name: NMAKE reference
           expanded: false
@@ -1168,12 +1165,16 @@ items:
                       href: ../build/reference/nmake-function-filterout.md
                     - name: findstring, findstringi
                       href: ../build/reference/nmake-function-findstring.md
+                    - name: lowercase
+                      href: ../build/reference/nmake-function-lowercase.md
                     - name: patsubst, patsubsti
                       href: ../build/reference/nmake-function-patsubst.md
                     - name: strip
                       href: ../build/reference/nmake-function-strip.md
                     - name: subst, substi
                       href: ../build/reference/nmake-function-subst.md
+                    - name: uppercase
+                      href: ../build/reference/nmake-function-uppercase.md
                 - name: Special NMAKE macros
                   href: ../build/reference/special-nmake-macros.md
             - name: Inference rules

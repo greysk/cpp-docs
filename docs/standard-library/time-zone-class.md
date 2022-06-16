@@ -1,9 +1,10 @@
 ---
 description: "Learn more about: time_zone class"
 title: "time_zone class"
-ms.date: 09/30/2021
+ms.date: 05/31/2022
 f1_keywords: ["chrono/std::chrono::time_zone::name", "chrono/std::chrono::time_zone::get_info", "chrono/std::chrono::time_zone::to_sys", "chrono/std::chrono::time_zone::to_local"]
 helpviewer_keywords: ["std::chrono [C++], time_zone class", "std::chrono::time_zone::name function", "std::chrono::time_zone::get_info function", "std::chrono::time_zone::to_sys function", "std::chrono::time_zone::to_local function"]
+dev_langs: ["C++"]
 ---
 # `time_zone` class
 
@@ -44,6 +45,8 @@ Microsoft C++ supports the `time_zone` class starting in Visual Studio 2019 vers
 ## Requirements
 
 **Header:** `<chrono>`
+
+Time-zone data is only available for Windows 10 version 1903/19H1 and later, and Windows Server 2022 and later.
 
 **Namespace:** `std::chrono`
 

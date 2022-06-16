@@ -1,9 +1,10 @@
 ---
 description: "Learn more about: <algorithm> functions"
 title: "<algorithm> functions"
-ms.date: "09/09/2021"
+ms.date: 06/07/2022
 f1_keywords: ["algorithm/std::adjacent_find", "algorithm/std::all_of", "algorithm/std::any_of", "algorithm/std::binary_search", "algorithm/std::copy", "algorithm/std::copy_backward", "algorithm/std::copy_if", "algorithm/std::copy_n", "algorithm/std::equal", "algorithm/std::equal_range", "algorithm/std::fill", "algorithm/std::fill_n", "algorithm/std::find", "algorithm/std::find_end", "algorithm/std::find_first_of", "algorithm/std::find_if", "algorithm/std::find_if_not", "algorithm/std::for_each", "algorithm/std::generate", "algorithm/std::generate_n", "algorithm/std::includes", "algorithm/std::inplace_merge", "algorithm/std::is_heap", "algorithm/std::is_heap_until", "algorithm/std::is_partitioned", "algorithm/std::is_permutation", "algorithm/std::is_sorted", "algorithm/std::is_sorted_until", "algorithm/std::iter_swap", "algorithm/std::lexicographical_compare", "algorithm/std::lower_bound", "algorithm/std::make_heap", "algorithm/std::max", "algorithm/std::max_element", "algorithm/std::merge", "algorithm/std::min", "algorithm/std::minmax", "algorithm/std::minmax_element", "algorithm/std::min_element", "algorithm/std::mismatch", "algorithm/std::move", "algorithm/std::move_backward", "algorithm/std::next_permutation", "algorithm/std::none_of", "algorithm/std::nth_element", "algorithm/std::partial_sort", "algorithm/std::partial_sort_copy", "algorithm/std::partition", "algorithm/std::partition_point", "algorithm/std::pop_heap", "algorithm/std::prev_permutation", "algorithm/std::push_heap", "algorithm/std::random_shuffle", "algorithm/std::remove", "algorithm/std::remove_copy", "algorithm/std::remove_copy_if", "algorithm/std::remove_if", "algorithm/std::replace", "algorithm/std::replace_copy", "algorithm/std::replace_copy_if", "algorithm/std::replace_if", "algorithm/std::reverse", "algorithm/std::reverse_copy", "algorithm/std::rotate", "algorithm/std::rotate_copy", "algorithm/std::search", "algorithm/std::search_n", "algorithm/std::set_difference", "algorithm/std::set_intersection", "algorithm/std::set_symmetric_difference", "algorithm/std::set_union", "algorithm/std::shuffle", "algorithm/std::sort", "algorithm/std::sort_heap", "algorithm/std::stable_partition", "algorithm/std::stable_sort", "algorithm/std::swap_ranges", "algorithm/std::transform", "algorithm/std::unique", "algorithm/std::unique_copy", "algorithm/std::upper_bound", "xutility/std::copy", "xutility/std::copy_backward", "xutility/std::copy_n", "xutility/std::count", "xutility/std::equal", "xutility/std::fill", "xutility/std::fill_n", "xutility/std::find", "xutility/std::is_permutation", "xutility/std::lexicographical_compare", "xutility/std::move", "xutility/std::move_backward", "xutility/std::reverse", "xutility/std::rotate", "algorithm/std::count_if", "algorithm/std::partition_copy", "algorithm/std::swap"]
 helpviewer_keywords: ["std::adjacent_find [C++]", "std::all_of [C++]", "std::any_of [C++]", "std::binary_search [C++]", "std::copy [C++]", "std::copy_backward [C++]", "std::copy_if [C++]", "std::copy_n [C++]", "std::equal [C++]", "std::equal_range [C++]", "std::fill [C++]", "std::fill_n [C++]", "std::find [C++]", "std::find_end [C++]", "std::find_first_of [C++]", "std::find_if [C++]", "std::find_if_not [C++]", "std::for_each [C++]", "std::generate [C++]", "std::generate_n [C++]", "std::includes [C++]", "std::inplace_merge [C++]", "std::is_heap [C++]", "std::is_heap_until [C++]", "std::is_partitioned [C++]", "std::is_permutation [C++]", "std::is_sorted [C++]", "std::is_sorted_until [C++]", "std::iter_swap [C++]", "std::lexicographical_compare [C++]", "std::lower_bound [C++]", "std::make_heap [C++]", "std::max [C++]", "std::max_element [C++]", "std::merge [C++]", "std::min [C++]", "std::minmax [C++]", "std::minmax_element [C++]", "std::min_element [C++]", "std::mismatch [C++]", "std::move [C++]", "std::move_backward [C++]", "std::next_permutation [C++]", "std::none_of [C++]", "std::nth_element [C++]", "std::partial_sort [C++]", "std::partial_sort_copy [C++]", "std::partition [C++]", "std::partition_point [C++]", "std::pop_heap [C++]", "std::prev_permutation [C++]", "std::push_heap [C++]", "std::random_shuffle [C++]", "std::remove [C++]", "std::remove_copy [C++]", "std::remove_copy_if [C++]", "std::remove_if [C++]", "std::replace [C++]", "std::replace_copy [C++]", "std::replace_copy_if [C++]", "std::replace_if [C++]", "std::reverse [C++]", "std::reverse_copy [C++]", "std::rotate [C++]", "std::rotate_copy [C++]", "std::search [C++]", "std::search_n [C++]", "std::set_difference [C++]", "std::set_intersection [C++]", "std::set_symmetric_difference [C++]", "std::set_union [C++]", "std::shuffle [C++]", "std::sort [C++]", "std::sort_heap [C++]", "std::stable_partition [C++]", "std::stable_sort [C++]", "std::swap_ranges [C++]", "std::transform [C++]", "std::unique [C++]", "std::unique_copy [C++]", "std::upper_bound [C++]", "std::copy [C++]", "std::copy_backward [C++]", "std::copy_n [C++]", "std::count [C++]", "std::equal [C++]", "std::fill [C++]", "std::fill_n [C++]", "std::find [C++]", "std::is_permutation [C++]", "std::lexicographical_compare [C++]", "std::move [C++]", "std::move_backward [C++]", "std::reverse [C++]", "std::rotate [C++]", "std::count_if [C++]", "std::partition_copy [C++]", "std::swap [C++]"]
+ms.custom: devdivchpfy22
 ---
 # `<algorithm>` functions
 
@@ -43,10 +44,10 @@ ForwardIterator adjacent_find(
 The execution policy to use.
 
 *`first`*\
-A forward iterator addressing the position of the first element in the range to be searched.
+A forward iterator at the position of the first element in the range to be searched.
 
 *`last`*\
-A forward iterator addressing the position one past the final element in the range to be searched.
+A forward iterator at the position one past the final element in the range to be searched.
 
 *`pred`*\
 The binary predicate giving the condition to be satisfied by the values of the adjacent elements in the range being searched.
@@ -57,7 +58,7 @@ A forward iterator to the first of the adjacent elements that are either equal t
 
 ### Remarks
 
-The `adjacent_find` algorithm is a nonmutating sequence algorithm. The range to be searched must be valid; all pointers must be dereferenceable and the last position is reachable from the first by incrementation. The time complexity of the algorithm is linear in the number of elements contained in the range.
+The `adjacent_find` algorithm is a nonmutating sequence algorithm. The range to be searched must be valid. All pointers must be dereferenceable, and the last position must be reachable from the first by incrementation. The time complexity of the algorithm is linear in the number of elements contained in the range.
 
 The `operator==` used to determine the match between elements must impose an equivalence relation between its operands.
 
@@ -156,7 +157,7 @@ An input iterator that indicates where to start to check for a condition. The it
 An input iterator that indicates the end of the range of elements to check for a condition.
 
 *`pred`*\
-A condition to test for. This is a user-defined predicate function object that defines the condition to be satisfied by an element being checked. A unary predicate takes a single argument and returns **`true`** or **`false`**.
+A condition to test for. *`pred`* is a user-defined unary predicate function object that defines the condition to be satisfied by an element being checked. A unary predicate takes a single argument and returns **`true`** or **`false`**.
 
 ### Return value
 
@@ -232,7 +233,7 @@ An input iterator that indicates where to start checking a range of elements for
 An input iterator that indicates the end of the range of elements to check for a condition.
 
 *`pred`*\
-A condition to test for. This is provided by a user-defined predicate function object. The predicate defines the condition to be satisfied by the element being tested. A unary predicate takes a single argument and returns **`true`** or **`false`**.
+A condition to test for. This test is provided by a user-defined predicate function object. The predicate defines the condition to be satisfied by the element being tested. A unary predicate takes a single argument and returns **`true`** or **`false`**.
 
 ### Return value
 
@@ -264,7 +265,7 @@ int main()
         cout << el << " ";
     cout << ")" << endl;
 
-    // Check if there is an even elememt in li.
+    // Check if there's an even element in li.
     auto is_even = [](int const elem){ return !(elem % 2); };
     if (any_of(li.begin(), li.end(), is_even))
         cout << "There's an even element in li.\n";
@@ -280,7 +281,7 @@ There's an even element in li.
 
 ## <a name="binary_search"></a> `binary_search`
 
-Tests whether there is an element in a sorted range that is equal to a specified value or that is equivalent to it in a sense specified by a binary predicate.
+Tests whether there's an element in a sorted range that is equal to a specified value or that is equivalent to it in a sense specified by a binary predicate.
 
 ```cpp
 template<class ForwardIterator, class Type>
@@ -321,9 +322,9 @@ The sorted source range referenced must be valid; all pointers must be dereferen
 
 The sorted range must each be arranged as a precondition to the application of the `binary_search` algorithm in accordance with the same ordering as is to be used by the algorithm to sort the combined ranges.
 
-The source ranges are not modified by `binary_search`.
+The source ranges aren't modified by `binary_search`.
 
-The value types of the forward iterators need to be less-than comparable to be ordered, so that, given two elements, it may be determined either that they are equivalent (in the sense that neither is less than the other) or that one is less than the other. This results in an ordering between the nonequivalent elements
+The value types of the forward iterators must be less-than comparable to be ordered. That is, given two elements, you can determine either that one is less than the other, or that they're equivalent. (Here, equivalent means that neither is less than the other.) This comparison results in an ordering between the nonequivalent elements.
 
 The complexity of the algorithm is logarithmic for random-access iterators and linear otherwise, with the number of steps proportional to (`last` - `first`).
 
@@ -419,7 +420,7 @@ There is an element with a value equivalent to -3 under mod_lesser.
 
 ## <a name="clamp"></a> `clamp`
 
-Compares a value to an upper and lower bound, and returns a reference to the value if it is between the bounds, or a reference to the upper or lower bound if the value is above or below them, respectively.
+Compares a value to an upper and lower bound, and returns a reference to the value if it's between the bounds, or a reference to the upper or lower bound if the value is above or below them, respectively.
 
 ```cpp
 template<class Type>
@@ -499,9 +500,9 @@ An output iterator addressing the position that is one past the final element in
 
 The source range must be valid and there must be sufficient space at the destination to hold all the elements being copied.
 
-Because the algorithm copies the source elements in order beginning with the first element, the destination range can overlap with the source range provided the *`last`* position of the source range is not contained in the destination range. `copy` can be used to shift elements to the left but not the right, unless there is no overlap between the source and destination ranges. To shift to the right any number of positions, use the [`copy_backward`](algorithm-functions.md#copy_backward) algorithm.
+Because the algorithm copies the source elements in order beginning with the first element, the destination range can overlap with the source range provided the *`last`* position of the source range isn't contained in the destination range. `copy` can be used to shift elements to the left but not the right, unless there's no overlap between the source and destination ranges. To shift to the right any number of positions, use the [`copy_backward`](algorithm-functions.md#copy_backward) algorithm.
 
-The `copy` algorithm only modifies values pointed to by the iterators, assigning new values to elements in the destination range. It cannot be used to create new elements and cannot insert elements into an empty container directly.
+The `copy` algorithm only modifies values pointed to by the iterators, assigning new values to elements in the destination range. It can't be used to create new elements and can't insert elements into an empty container directly.
 
 ### Example
 
@@ -596,9 +597,9 @@ The `copy_backward` algorithm imposes more stringent requirements than that the 
 
 The `copy_backward` and [`move_backward`](algorithm-functions.md#move_backward) algorithms are the only C++ Standard Library algorithms designating the output range with an iterator pointing to the end of the destination range.
 
-Because the algorithm copies the source elements in order beginning with the last element, the destination range can overlap with the source range provided the *`first`* position of the source range is not contained in the destination range. `copy_backward` can be used to shift elements to the right but not the left, unless there is no overlap between the source and destination ranges. To shift to the left any number of positions, use the [`copy`](algorithm-functions.md#copy) algorithm.
+Because the algorithm copies the source elements in order beginning with the last element, the destination range can overlap with the source range provided the *`first`* position of the source range isn't contained in the destination range. `copy_backward` can be used to shift elements to the right but not the left, unless there's no overlap between the source and destination ranges. To shift to the left any number of positions, use the [`copy`](algorithm-functions.md#copy) algorithm.
 
-The `copy_backward` algorithm only modifies values pointed to by the iterators, assigning new values to elements in the destination range. It cannot be used to create new elements and cannot insert elements into an empty container directly.
+The `copy_backward` algorithm only modifies values pointed to by the iterators, assigning new values to elements in the destination range. It can't be used to create new elements and can't insert elements into an empty container directly.
 
 ### Example
 
@@ -798,7 +799,7 @@ An output iterator that indicates where to copy elements to.
 
 ### Return value
 
-Returns an output iterator where elements have been copied to. It is the same as the returned value of the *`dest`* parameter.
+Returns an output iterator where elements have been copied to. It's the same as the returned value of the *`dest`* parameter.
 
 ### Remarks
 
@@ -1005,7 +1006,7 @@ Compares two ranges element by element for equality or equivalence in a sense sp
 
 Use `std::equal` when comparing elements in different container types (for example `vector` and `list`) or when comparing different element types, or when you need to compare subranges of containers. Otherwise, when comparing elements of the same type in the same container type, use the non-member `operator==` that is provided for each container.
 
-Use the dual-range overloads in C++14 code because the overloads that only take a single iterator for the second range will not detect differences if the second range is longer than the first range, and will result in undefined behavior if the second range is shorter than the first range.
+Use the dual-range overloads in C++14 code because the overloads that only take a single iterator for the second range won't detect differences if the second range is longer than the first range. These overloads will result in undefined behavior if the second range is shorter than the first range.
 
 ```cpp
 template<class InputIterator1, class InputIterator2>
@@ -1099,7 +1100,7 @@ The range to be searched must be valid; all iterators must be dereferenceable an
 
 If the two ranges are equal length, then the time complexity of the algorithm is linear in the number of elements contained in the range. Otherwise the function immediately returns **`false`**.
 
-Neither the `operator==` nor the user-defined predicate is required to impose an equivalence relation that symmetric, reflexive, and transitive between its operands.
+You don't need either `operator==` or the user-defined predicate to impose an equivalence relation that's symmetric, reflexive, and transitive between its operands.
 
 ### Example
 
@@ -1132,6 +1133,12 @@ int main()
 
     return 0;
 }
+```
+
+```Output
+v1 and v2 are equal: 1
+v1 and v3 are equal: 1
+v1 and v3 are equal with dual-range overload: 0
 ```
 
 ## <a name="equal_range"></a> `equal_range`
@@ -1177,7 +1184,7 @@ If no elements in the range are equivalent to *`value`*, the forward iterators i
 
 The first iterator of the pair returned by the algorithm is [`lower_bound`](algorithm-functions.md#lower_bound), and the second iterator is [`upper_bound`](algorithm-functions.md#upper_bound).
 
-The range must be sorted according to the predicate provided to `equal_range`. For example, if you are going to use the greater-than predicate, the range must be sorted in descending order.
+The range must be sorted according to the predicate provided to `equal_range`. For example, if you're going to use the greater-than predicate, the range must be sorted in descending order.
 
 Elements in the possibly empty subrange defined by the pair of iterators returned by `equal_range` will be equivalent to *value* in the sense defined by the predicate used.
 
@@ -1221,13 +1228,13 @@ template<class T> void equal_range_demo( const vector<T>& original_vector, T val
 
     sort( v.begin(), v.end() );
     cout << "Vector sorted by the default binary predicate <:" << endl << '\t';
-    for ( vector<T>::const_iterator i = v.begin(); i != v.end(); ++i )
+    for ( typename vector<T>::const_iterator i = v.begin(); i != v.end(); ++i )
     {
         cout << *i << " ";
     }
     cout << endl << endl;
 
-    pair<vector<T>::iterator, vector<T>::iterator> result
+    pair<typename vector<T>::iterator, typename vector<T>::iterator> result
         = equal_range( v.begin(), v.end(), value );
 
     cout << "Result of equal_range with value = " << value << ":" << endl << '\t';
@@ -1298,6 +1305,39 @@ int main()
     equal_range_demo<string>( v2, "fred" );
     equal_range_demo<string>( v2, "fred", shorter_than, "shorter_than" );
 }
+```
+
+```Output
+Vector sorted by the default binary predicate <:
+    -3 -2 -1 -1 0 0 1 2 3 4 
+
+Result of equal_range with value = 3:
+    -3 -2 -1 -1 0 0 1 2 [ 3 ] 4 
+
+Vector sorted by the binary predicate greater:
+    4 3 2 1 0 0 -1 -1 -2 -3 
+
+Result of equal_range with value = 3:
+    4 [ 3 ] 2 1 0 0 -1 -1 -2 -3 
+
+Vector sorted by the binary predicate abs_lesser:
+    0 0 -1 1 -1 2 -2 3 -3 4 
+
+Result of equal_range with value = 3:
+    0 0 -1 1 -1 2 -2 [ 3 -3 ] 4 
+
+Vector sorted by the default binary predicate <:
+    blah cute fluffy fun kittens meowmeowmeow 
+
+Result of equal_range with value = fred:
+    blah cute fluffy [ ] fun kittens meowmeowmeow 
+
+Vector sorted by the binary predicate shorter_than:
+    fun cute blah fluffy kittens meowmeowmeow 
+
+Result of equal_range with value = fred:
+    fun [ cute blah ] fluffy kittens meowmeowmeow 
+
 ```
 
 ## <a name="fill"></a> `fill`
@@ -1436,7 +1476,7 @@ int main()
     for ( auto i = 0 ; i < 9 ; ++i )
         v.push_back( 0 );
 
-    cout << " vector v = ( " ;
+    cout << "vector v = ( " ;
     for ( const auto &w : v )
         cout << w << " ";
     cout << ")" << endl;
@@ -1465,6 +1505,13 @@ int main()
         cout << w << " ";
     cout << ")" << endl;
 }
+```
+
+```Output
+vector v = ( 0 0 0 0 0 0 0 0 0 )
+modified v = ( 1 1 1 0 0 0 0 0 0 )
+modified v = ( 1 1 1 2 2 2 0 0 0 )
+modified v = ( 1 1 1 2 2 2 3 3 3 )
 ```
 
 ## <a name="find"></a> `find`
@@ -1676,7 +1723,7 @@ in v2 under the binary predicate twice and that begins at position 8.
 
 ## <a name="find_first_of"></a> `find_first_of`
 
-Searches for the first occurrence of any of several values within a target range or for the first occurrence of any of several elements that are equivalent in a sense specified by a binary predicate to a specified set of the elements.
+Searches for the first occurrence of any of several values within a target range. Or, searches for the first occurrence of any of several elements that are equivalent in a sense specified by a binary predicate to a specified set of the elements.
 
 ```cpp
 template<class ForwardIterator1, class ForwardIterator2>
@@ -1868,7 +1915,7 @@ An input iterator addressing the position of the first element in the range to b
 An input iterator addressing the position one past the final element in the range to be searched.
 
 *`pred`*\
-User-defined predicate function object or [lambda expression](../cpp/lambda-expressions-in-cpp.md) that defines the condition to be satisfied by the element being searched for. A unary predicate takes a single argument and returns **`true`** if satisfied, or **`false`** if not satisfied. The signature of *`pred`* must effectively be `bool pred(const T& arg);`, where `T` is a type to which `InputIterator` can be implicitly converted when dereferenced. The **`const`** keyword is shown only to illustrate that the function object or lambda should not modify the argument.
+User-defined predicate function object or [lambda expression](../cpp/lambda-expressions-in-cpp.md) that defines the condition to be satisfied by the element being searched for. A unary predicate takes a single argument and returns **`true`** if satisfied, or **`false`** if not satisfied. The signature of *`pred`* must effectively be `bool pred(const T& arg);`, where `T` is a type to which `InputIterator` can be implicitly converted when dereferenced. The **`const`** keyword is shown only to illustrate that the function object or lambda shouldn't modify the argument.
 
 ### Return value
 
@@ -1876,7 +1923,7 @@ An input iterator that refers to the first element in the range that satisfies t
 
 ### Remarks
 
-This template function is a generalization of the algorithm [`find`](algorithm-functions.md#find), replacing the predicate "equals a specific value" with any predicate. For the logical opposite (find the first element that does not satisfy the predicate), see [`find_if_not`](algorithm-functions.md#find_if_not).
+This template function is a generalization of the algorithm [`find`](algorithm-functions.md#find), replacing the predicate "equals a specific value" with any predicate. For the logical opposite (find the first element that doesn't satisfy the predicate), see [`find_if_not`](algorithm-functions.md#find_if_not).
 
 ### Example
 
@@ -1963,9 +2010,27 @@ int main()
 }
 ```
 
+```Output
+array x[] contents: (1) (2) (3) (4) (5) (6) (7) (8) (9) (10) 
+Test std::find() with array...
+value 10 found.
+value 42 not found.
+Test std::find_if() with array...
+first odd integer found: 1
+first even integer found: 2
+
+vector v contents: (10) (20) (30) (40) (50) (60) (70) (80) (90) (100) 
+Test std::find() with vector...
+value 20 found.
+value 12 not found.
+Test std::find_if() with vector...
+odd integer not found.
+first even integer found: 10
+```
+
 ## <a name="find_if_not"></a> `find_if_not`
 
-Returns the first element in the indicated range that does not satisfy a condition.
+Returns the first element in the indicated range that doesn't satisfy a condition.
 
 ```cpp
 template<class InputIterator, class UnaryPredicate>
@@ -1990,11 +2055,11 @@ An input iterator addressing the position of the first element in the range to b
 An input iterator addressing the position one past the final element in the range to be searched.
 
 *`pred`*\
-User-defined predicate function object or [lambda expression](../cpp/lambda-expressions-in-cpp.md) that defines the condition to be not satisfied by the element being searched for. A unary predicate takes a single argument and returns **`true`** if satisfied, or **`false`** if not satisfied. The signature of *`pred`* must effectively be `bool pred(const T& arg);`, where `T` is a type to which `InputIterator` can be implicitly converted when dereferenced. The **`const`** keyword is shown only to illustrate that the function object or lambda should not modify the argument.
+User-defined predicate function object or [lambda expression](../cpp/lambda-expressions-in-cpp.md) that defines the condition to be not satisfied by the element being searched for. A unary predicate takes a single argument and returns **`true`** if satisfied, or **`false`** if not satisfied. The signature of *`pred`* must effectively be `bool pred(const T& arg);`, where `T` is a type to which `InputIterator` can be implicitly converted when dereferenced. The **`const`** keyword is shown only to illustrate that the function object or lambda shouldn't modify the argument.
 
 ### Return value
 
-An input iterator that refers to the first element in the range that does not satisfy the condition specified by the predicate (the predicate results in **`false`**). If all elements satisfy the predicate (the predicate results in **`true`** for every element), returns *`last`*.
+An input iterator that refers to the first element in the range that doesn't satisfy the condition specified by the predicate (the predicate results in **`false`**). If all elements satisfy the predicate (the predicate results in **`true`** for every element), returns *`last`*.
 
 ### Remarks
 
@@ -2024,7 +2089,7 @@ void for_each(
 ### Parameters
 
 *`first`*\
-An input iterator addressing the position of the first element in the range to be operated on.
+An input iterator addressing the position of the first element in the range to operate on.
 
 *`last`*\
 An input iterator addressing the position one past the final element in the range operated on.
@@ -2038,7 +2103,7 @@ A copy of the function object after it has been applied to all of the elements i
 
 ### Remarks
 
-The algorithm `for_each` is very flexible, allowing the modification of each element within a range in different, user-specified ways. Templatized functions may be reused in a modified form by passing different parameters. User-defined functions may accumulate information within an internal state that the algorithm may return after processing all of the elements in the range.
+The algorithm `for_each` is flexible, allowing the modification of each element within a range in different, user-specified ways. Templatized functions may be reused in a modified form by passing different parameters. User-defined functions may accumulate information within an internal state that the algorithm may return after processing all of the elements in the range.
 
 The range referenced must be valid; all pointers must be dereferenceable and, within the sequence, the last position must be reachable from the first by incrementation.
 
@@ -2127,7 +2192,7 @@ int main()
 
     // The function object is templatized and so can be
     // used again on the elements with a different Factor
-    for_each (v1.begin( ), v1.end( ), MultValue<int> (5 ) );
+    for_each ( v1.begin( ), v1.end( ), MultValue<int> ( 5 ) );
 
     cout << "Multiplying the elements of the vector v1mod\n "
             << "by the factor 5 gives:\n v1mod2 = ( " ;
@@ -2159,19 +2224,127 @@ Average ( v1mod2 ) = 10.
 
 ## <a name="for_each_n"></a> `for_each_n`
 
+Applies a specified function object to a specified number of elements in a range beginning with a particular element.
+
 ```cpp
 template<class InputIterator, class Size, class Function>
 InputIterator for_each_n(
     InputIterator first,
-    Size n,
-    Function f);
+    Size count,
+    Function func);
 
 template<class ExecutionPolicy, class ForwardIterator, class Size, class Function>
 ForwardIterator for_each_n(
     ExecutionPolicy&& exec,
     ForwardIterator first,
-    Size n,
-    Function f);
+    Size count,
+    Function func);
+```
+
+### Parameters
+
+*`exec`*\
+The execution policy to use.
+
+*`first`*\
+An input iterator at the position of the first element in the range to operate on.
+
+*`count`*\
+The number of elements to operate on.
+
+*`func`*\
+A user-defined function object to apply to each element in the range [`first`, `first` + `count`).
+
+### Return value
+
+An iterator to the element that follows the last element processed if *`count`* > zero,
+otherwise the first element.
+
+### Remarks
+
+*`count`* must be non-negative, and there must be at least *`count`* elements in the range starting from *`first`*.
+
+### Example
+
+This example defines a function object class. Production code often uses a [`lambda`](../cpp/lambda-expressions-in-cpp.md) to achieve the same result with less code.
+
+```cpp
+// alg_for_each_n.cpp
+// compile with /EHsc and /std:c++17 (or higher)
+#include <algorithm>
+#include <iostream>
+#include <vector>
+
+// The function object multiplies an element by a Factor
+template <class Type> class MultValue
+{
+private:
+    Type Factor; // The value to multiply each element by
+public:
+    // Constructor initializes the value to multiply by
+    MultValue(const Type &value) : Factor(value) {}
+
+    // The function call for the element to be multiplied
+    void operator()(Type &elem) const
+    {
+        elem *= Factor;
+    }
+};
+
+// Utility to display the contents of a vector 
+template <class T> void print_vector(const std::vector<T> &vec)
+{
+    std::cout << "( ";
+
+    for (auto iter = vec.begin(); iter != vec.end(); iter++)
+    {
+        std::cout << *iter << ' ';
+    }
+
+    std::cout << ").\n";
+}
+
+int main()
+{
+    std::vector<int> v;
+
+    // Construct vector with the elements -4...2
+    for (int i = -4; i <= 2; i++)
+    {
+        v.push_back(i);
+    }
+
+    std::cout << "Original vector v = ";
+    print_vector(v);
+
+    // Use for_each_n to multiply the first 3 elements by a Factor,
+    // saving the position in the vector after the first 3 elements
+    auto pos = for_each_n(v.begin(), 3, MultValue<int>(-2));
+
+    std::cout << "Multiplying the first 3 elements of the vector v\n "
+              << "by the factor -2 gives:\n vmod1 = ";
+    print_vector(v);
+
+    // Using for_each_n to multiply the next 4 elements by a Factor,
+    // starting at the position saved by the previous for_each_n
+    for_each_n(pos, 4, MultValue<int>(-3));
+
+    std::cout << "Multiplying the next 4 elements of the vector v\n "
+         << "by the factor -3 gives:\n vmod2 = ";
+    print_vector(v);
+
+    return 0;
+}
+```
+
+```Output
+Original vector v = ( -4 -3 -2 -1 0 1 2 ).
+Multiplying the first 3 elements of the vector v
+ by the factor -2 gives:
+ vmod1 = ( 8 6 4 -1 0 1 2 ).
+Multiplying the next 4 elements of the vector v
+ by the factor -3 gives:
+ vmod2 = ( 8 6 4 3 0 -3 -6 ).
 ```
 
 ## <a name="generate"></a> `generate`
@@ -2195,21 +2368,21 @@ void generate(
 ### Parameters
 
 *`first`*\
-A forward iterator addressing the position of the first element in the range to which values are to be assigned.
+A forward iterator at the position of the first element in the range to which values are to be assigned.
 
 *`last`*\
-A forward iterator addressing the position one past the final element in the range to which values are to be assigned.
+A forward iterator at the position one past the final element in the range to which values are to be assigned.
 
 *`gen`*\
-A function object that is called with no arguments that is used to generate the values to be assigned to each of the elements in the range.
+A function object that is called with no arguments to generate the values to be assigned to each of the elements in the range.
 
 ### Remarks
 
-The function object is invoked for each element in the range and does not need to return the same value each time it is called. It may, for example, read from a file or refer to and modify a local state. The generator's result type must be convertible to the value type of the forward iterators for the range.
+The function object is invoked for each element in the range and doesn't need to return the same value each time it's called. It may, for example, read from a file or refer to and modify a local state. The generator's result type must be convertible to the value type of the forward iterator for the range.
 
-The range referenced must be valid; all pointers must be dereferenceable and, within the sequence, the last position must be reachable from the first by incrementation.
+The range referenced must be valid. All pointers must be dereferenceable and, within the sequence, the last position must be reachable from the first by incrementation.
 
-The complexity is linear, with exactly ( `last` - `first`) calls to the generator being required.
+The complexity is linear, with exactly `last` - `first` calls made to the generator.
 
 ### Example
 
@@ -2256,7 +2429,7 @@ Deque deq1 is ( 15724 11478 29358 26962 24464 ).
 
 ## <a name="generate_n"></a> `generate_n`
 
-Assigns the values generated by a function object to a specified number of elements in a range and returns to the position one past the last assigned value.
+Assigns the values generated by a function object to a specified number of elements in a range. Returns the position one past the last assigned value.
 
 ```cpp
 template<class OutputIterator, class Diff, class Generator>
@@ -2289,7 +2462,7 @@ A function object that is called with no arguments that is used to generate the 
 
 ### Remarks
 
-The function object is invoked for each element in the range and does not need to return the same value each time it is called. It may, for example, read from a file or refer to and modify a local state. The generator's result type must be convertible to the value type of the forward iterators for the range.
+The function object is invoked for each element in the range and doesn't need to return the same value each time it's called. It may, for example, read from a file or refer to and modify a local state. The generator's result type must be convertible to the value type of the forward iterators for the range.
 
 The range referenced must be valid; all pointers must be dereferenceable and, within the sequence, the last position must be reachable from the first by incrementation.
 
@@ -2338,6 +2511,11 @@ int main()
     generate_n(dq.begin(), elemcount, [&](){ return dist(engine); });
     print("deque dq is: ", dq);
 }
+```
+
+```Output
+vector v is: 5 8 2 -9 6 
+deque dq is: 7 6 9 3 4 
 ```
 
 ## <a name="includes"></a> `includes`
@@ -2408,11 +2586,11 @@ Another way to think of this test is that it determined whether the second sourc
 
 The sorted source ranges referenced must be valid; all pointers must be dereferenceable and, within each sequence, the last position must be reachable from the first by incrementation.
 
-The sorted source ranges must each be arranged as a precondition to the application of the algorithm includes in accordance with the same ordering as is to be used by the algorithm to sort the combined ranges.
+As a precondition to the application of the algorithm `includes`, the sorted source ranges must each be arranged with the same ordering that's used by the algorithm to sort the combined ranges.
 
-The source ranges are not modified by the algorithm `merge`.
+The source ranges aren't modified by the algorithm `merge`.
 
-The value types of the input iterators need be less-than comparable to be ordered, so that, given two elements, it may be determined either that they are equivalent (in the sense that neither is less than the other) or that one is less than the other. This results in an ordering between the nonequivalent elements. More precisely, the algorithm tests whether all the elements in the first sorted range under a specified binary predicate have equivalent ordering to those in the second sorted range.
+The value types of the input iterators must be less-than comparable to be ordered. That is, given two elements, you can determine either that one is less than the other, or that they're equivalent. (Here, equivalent means that neither is less than the other.) This comparison results in an ordering between the nonequivalent elements. More precisely, the algorithm tests whether all the elements in the first sorted range under a specified binary predicate have equivalent ordering to the ones in the second sorted range.
 
 The complexity of the algorithm is linear with at most `2 * ((last1 - first1) + (last2 - first2)) - 1` comparisons for nonempty source ranges.
 
@@ -2781,7 +2959,7 @@ A condition to test to order elements. A comparison predicate takes two argument
 
 ### Return value
 
-Returns **`true`** if the elements in the specified range form a heap, **`false`** if they do not.
+Returns **`true`** if the elements in the specified range form a heap, **`false`** if they don't.
 
 ### Remarks
 
@@ -2793,7 +2971,7 @@ The second template function returns
 
 ## <a name="is_heap_until"></a> is_heap_until
 
-Returns an iterator positioned at the first element in the range [ `first`, `last`) that does not satisfy the heap ordering condition, or *`end`* if the range forms a heap.
+Returns an iterator positioned at the first element in the range [ `first`, `last`) that doesn't satisfy the heap ordering condition, or *`end`* if the range forms a heap.
 
 ```cpp
 template<class RandomAccessIterator>
@@ -2837,7 +3015,7 @@ A binary predicate that specifies the strict weak ordering condition that define
 
 ### Return value
 
-Returns *`last`* if the specified range forms a heap or contains one or fewer elements. Otherwise, returns an iterator for the first element found that does not satisfy the heap condition.
+Returns *`last`* if the specified range forms a heap or contains one or fewer elements. Otherwise, returns an iterator for the first element found that doesn't satisfy the heap condition.
 
 ### Remarks
 
@@ -2876,7 +3054,7 @@ An input iterator that indicates where a range starts to check for a condition.
 An input iterator that indicates the end of a range.
 
 *`pred`*\
-The condition to test for. This is provided by a user-defined predicate function object that defines the condition to be satisfied by the element being searched for. A unary predicate takes a single argument and returns **`true`** or **`false`**.
+The condition to test for. This test is provided by a user-defined predicate function object that defines the condition to be satisfied by the element being searched for. A unary predicate takes a single argument and returns **`true`** or **`false`**.
 
 ### Return value
 
@@ -2888,7 +3066,7 @@ The template function returns **`true`** only if all elements in `[first, last)`
 
 ## <a name="is_permutation"></a> `is_permutation`
 
-Returns true if both ranges contain the same elements, whether or not the elements are in the same order. Use the dual-range overloads in C++14 code because the overloads that only take a single iterator for the second range will not detect differences if the second range is longer than the first range, and will result in undefined behavior if the second range is shorter than the first range.
+Returns `true` if both ranges contain the same elements, whether or not the elements are in the same order. Use the dual-range overloads in C++14 code because the overloads that only take a single iterator for the second range won't detect differences if the second range is longer than the first range. These overloads will result in undefined behavior if the second range is shorter than the first range.
 
 ```cpp
 template<class ForwardIterator1, class ForwardIterator2>
@@ -2946,7 +3124,7 @@ A predicate that tests for equivalence and returns a **`bool`**.
 
 `is_permutation` has quadratic complexity in the worst case.
 
-The first template function assumes that there are as many elements in the range beginning at *first2* as there are in the range designated by `[first1, last1)`. If there are more elements in the second range, they are ignored; if there are less, undefined behavior will occur. The third template function (C++14 and later) does not make this assumption. Both return **`true`** only if, for each element X in the range designated by `[first1, last1)` there are as many elements Y in the same range for which X == Y as there are in the range beginning at *`first2`* or `[first2, last2)`. Here, `operator==` must perform a pairwise comparison between its operands.
+The first template function assumes that there are as many elements in the range beginning at *`first2`* as there are in the range designated by `[first1, last1)`. If there are more elements in the second range, they're ignored; if there are less, undefined behavior will occur. The third template function (C++14 and later) doesn't make this assumption. Both return **`true`** only if, for each element `X` in the range designated by `[first1, last1)` there are as many elements `Y` in the same range for which `X == Y` as there are in the range beginning at *`first2`* or `[first2, last2)`. Here, `operator==` must perform a pairwise comparison between its operands.
 
 The second and fourth template functions behave the same, except that they replace `operator==(X, Y)` with `Pred(X, Y)`. To behave correctly, the predicate must be symmetric, reflexive, and transitive.
 
@@ -2998,12 +3176,15 @@ int main()
 
     cout << "animals_2 is a permutation of animals_1: " << is_perm << endl; // true
 
-    cout << "Press a letter" << endl;
-    char c;
-    cin >> c;
-
     return 0;
 }
+```
+
+```Output
+(1) Compare using built-in == operator: true
+(2) Compare after modifying vec_2: false
+(3) vec_3 is a permutation of vec_4: true
+animals_2 is a permutation of animals_1: true
 ```
 
 ## <a name="is_sorted"></a> `is_sorted`
@@ -3048,7 +3229,7 @@ A forward iterator that indicates where the range to check begins.
 A forward iterator that indicates the end of a range.
 
 *`pred`*\
-The condition to test to determine an order between two elements. A comparison predicate takes two arguments and returns **`true`** or **`false`**. This performs the same task as `operator<`.
+The condition to test to determine an order between two elements. A comparison predicate takes two arguments and returns **`true`** or **`false`**. This predicate performs the same task as `operator<`.
 
 ### Remarks
 
@@ -3437,7 +3618,7 @@ Vector v1 is not lexicographically_less than v2 under twice.
 
 ## <a name="lower_bound"></a> `lower_bound`
 
-Finds the position of the first element in an ordered range that has a value greater than or equivalent to a specified value, where the ordering criterion may be specified by a binary predicate.
+Finds the position of the first element in an ordered range that has a value greater than or equivalent to a specified value. The ordering criterion may be specified by a binary predicate.
 
 ```cpp
 template<class ForwardIterator, class Type>
@@ -3470,7 +3651,7 @@ User-defined predicate function object that defines sense in which one element i
 
 ### Return value
 
-A forward iterator at the position of the first element in an ordered range with a value that is greater than or equivalent to a specified value, where the equivalence is specified with a binary predicate.
+A forward iterator at the position of the first element in an ordered range with a value that is greater than or equivalent to a specified value. The equivalence may be specified with a binary predicate.
 
 ### Remarks
 
@@ -3478,9 +3659,9 @@ The sorted source range referenced must be valid; all iterators must be derefere
 
 A sorted range is a precondition of using `lower_bound` and where the ordering is the same as specified by with binary predicate.
 
-The range is not modified by the algorithm `lower_bound`.
+The range isn't modified by the algorithm `lower_bound`.
 
-The value types of the forward iterators need be less-than comparable to be ordered, so that, given two elements, it may be determined either that they are equivalent (in the sense that neither is less than the other) or that one is less than the other. This results in an ordering between the nonequivalent elements
+The value types of the forward iterators must be less-than comparable to be ordered. That is, given two elements, you can determine either that one is less than the other, or that they're equivalent. (Here, equivalent means that neither is less than the other.) This comparison results in an ordering between the nonequivalent elements.
 
 The complexity of the algorithm is logarithmic for random-access iterators and linear otherwise, with the number of steps proportional to (`last - first`).
 
@@ -3574,6 +3755,19 @@ int main()
 }
 ```
 
+```Output
+Starting vector v1 = ( -1 0 1 2 3 4 -3 -2 -1 0 ).
+Original vector v1 with range sorted by the
+ binary predicate less than is v1 = ( -3 -2 -1 -1 0 0 1 2 3 4 ).
+Original vector v2 with range sorted by the
+ binary predicate greater is v2 = ( 4 3 2 1 0 0 -1 -1 -2 -3 ).
+Original vector v3 with range sorted by the
+ binary predicate mod_lesser is v3 = ( 0 0 -1 -1 1 -2 2 -3 3 4 ).
+The lower_bound in v1 for the element with a value of 3 is: 3.
+The lower_bound in v2 for the element with a value of 3 is: 3.
+The lower_bound in v3 for the element with a value of 3 is: -3.
+```
+
 ## <a name="make_heap"></a> `make_heap`
 
 Converts elements from a specified range into a heap in which the first element is the largest and for which a sorting criterion may be specified with a binary predicate.
@@ -3610,7 +3804,7 @@ Heaps have two properties:
 
 - Elements may be added or removed in logarithmic time.
 
-Heaps are an ideal way to implement priority queues and they are used in the implementation of the C++ Standard Library container adaptor [priority_queue Class](priority-queue-class.md).
+Heaps are an ideal way to implement priority queues and they're used in the implementation of the C++ Standard Library container adaptor [priority_queue Class](priority-queue-class.md).
 
 The complexity is linear, requiring `3 * (last - first)` comparisons.
 
@@ -3656,6 +3850,12 @@ int main() {
 }
 ```
 
+```Output
+Vector v1 is ( 4 3 7 8 0 5 2 1 6 9 ).
+The heaped version of vector v1 is ( 9 8 7 6 3 5 2 1 4 0 ).
+The greater-than heaped version of v1 is ( 0 1 2 4 3 5 7 6 9 8 ).
+```
+
 ## <a name="max"></a> `max`
 
 Compares two objects and returns the larger of the two, where the ordering criterion may be specified by a binary predicate.
@@ -3695,7 +3895,7 @@ The initializer list that contains the objects to be compared.
 
 ### Return value
 
-The greater of the two objects, unless neither is greater; in that case, it returns the first of the two objects. In the case of an `initializer_list`, it returns the greatest of the objects in the list.
+The greater of the two objects, unless neither is greater; in that case, it returns the first of the two objects. When an `initializer_list` is specified, it returns the greatest of the objects in the list.
 
 ### Remarks
 
@@ -3857,7 +4057,9 @@ int main()
 Using integers 6 and -7...
 The integer with the greater absolute value is: -7
 The integer with the greater value is: 6.
-Comparing the members of an initializer_list...The member with the greater value is: 6The integer with the greater absolute value is: -7
+Comparing the members of an initializer_list...
+The member with the greater value is: 6
+The integer with the greater absolute value is: -7
 s1 = ( CInt( 1 ), CInt( 2 ) ).
 s2 = ( CInt( 2 ), CInt( 3 ) ).
 s3 = max ( s1, s2 ) = ( CInt( 2 ), CInt( 3 ) ).
@@ -4023,6 +4225,16 @@ int main()
 }
 ```
 
+```Output
+s1 = ( CInt( -3 ), CInt( 1 ), CInt( 2 ) ).
+The largest element in s1 is: CInt( 2 )
+
+Vector v1 is ( 0 1 2 3 -2 -4 -6 -8 ).
+The largest element in v1 is: 3
+The largest element in v1 under the mod_lesser
+ binary predicate is: -8
+```
+
 ## <a name="merge"></a> `merge`
 
 Combines all of the elements from two sorted source ranges into a single, sorted destination range, where the ordering criterion may be specified by a binary predicate.
@@ -4096,13 +4308,13 @@ An output iterator addressing the position one past the last element in the sort
 
 The sorted source ranges referenced must be valid; all pointers must be dereferenceable and within each sequence the last position must be reachable from the first by incrementation.
 
-The destination range should not overlap either of the source ranges and should be large enough to contain the destination range.
+The destination range shouldn't overlap either of the source ranges and should be large enough to contain the destination range.
 
 The sorted source ranges must each be arranged as a precondition to the application of the `merge` algorithm in accordance with the same ordering as is to be used by the algorithm to sort the combined ranges.
 
-The operation is stable as the relative order of elements within each range is preserved in the destination range. The source ranges are not modified by the algorithm `merge`.
+The operation is stable as the relative order of elements within each range is preserved in the destination range. The source ranges aren't modified by the algorithm `merge`.
 
-The value types of the input iterators need be less-than comparable to be ordered, so that, given two elements, it may be determined either that they are equivalent (in the sense that neither is less than the other) or that one is less than the other. This results in an ordering between the nonequivalent elements. When there are equivalent elements in both source ranges, the elements in the first range precede the elements from the second source range in the destination range.
+The value types of the input iterators must be less-than comparable to be ordered. That is, given two elements, you can determine either that one is less than the other, or that they're equivalent. (Here, equivalent means that neither is less than the other.) This comparison results in an ordering between the nonequivalent elements. When there are equivalent elements in both source ranges, the elements in the first range precede the elements from the second source range in the destination range.
 
 The complexity of the algorithm is linear with at most `(last1 - first1) - (last2 - first2) - 1` comparisons.
 
@@ -4218,6 +4430,27 @@ int main() {
 }
 ```
 
+```Output
+Original vector v1a with range sorted by the
+ binary predicate less than is v1a = ( 0 1 2 3 4 5 ).
+Original vector v1b with range sorted by the
+ binary predicate less than is v1b = ( -5 -4 -3 -2 -1 0 ).
+Original vector v2a with range sorted by the
+ binary predicate greater is   v2a = ( 5 4 3 2 1 0 ).
+Original vector v2b with range sorted by the
+ binary predicate greater is   v2b = ( 0 -1 -2 -3 -4 -5 ).
+Original vector v3a with range sorted by the
+ binary predicate mod_lesser is   v3a = ( 0 1 2 3 4 5 ).
+Original vector v3b with range sorted by the
+ binary predicate mod_lesser is   v3b = ( 0 -1 -2 -3 -4 -5 ).
+Merged inplace with default order,
+ vector v1mod = ( -5 -4 -3 -2 -1 0 0 1 2 3 4 5 ).
+Merged inplace with binary predicate greater specified,
+ vector v2mod = ( 5 4 3 2 1 0 0 -1 -2 -3 -4 -5 ).
+Merged inplace with binary predicate mod_lesser specified,
+ vector v3mod = ( 0 0 1 -1 2 -2 3 -3 4 -4 5 -5 ).
+```
+
 ## <a name="min"></a> `min`
 
 Compares two objects and returns the lesser of the two, where the ordering criterion may be specified by a binary predicate.
@@ -4260,7 +4493,7 @@ The `initializer_list` that contains the members to be compared.
 
 ### Return value
 
-The lesser of the two objects, unless neither is lesser; in that case, it returns the first of the two objects. In the case of an `initializer_list`, it returns the least of the objects in the list.
+The lesser of the two objects, unless neither is lesser; in that case, it returns the first of the two objects. When an `initializer_list` is specified, it returns the least of the objects in the list.
 
 ### Remarks
 
@@ -4711,7 +4944,7 @@ The function performs exactly one comparison.
 
 Compares two ranges element by element and locates the first position where a difference occurs.
 
-Use the dual-range overloads in C++14 code because the overloads that only take a single iterator for the second range will not detect differences if the second range is longer than the first range, and will result in undefined behavior if the second range is shorter than the first range.
+Use the dual-range overloads in C++14 code because the overloads that only take a single iterator for the second range won't detect differences if the second range is longer than the first range. These overloads will result in undefined behavior if the second range is shorter than the first range.
 
 ```cpp
 template<class InputIterator1, class InputIterator2>
@@ -4801,21 +5034,21 @@ An input iterator addressing the position of the first element in the second ran
 An input iterator addressing the position of one past the last element in the second range to be tested.
 
 *`pred`*\
-User-defined predicate function object that compares the current elements in each range and determines whether they are equivalent. It returns **`true`** when satisfied and **`false`** when not satisfied.
+User-defined predicate function object that compares the current elements in each range and determines whether they're equivalent. It returns **`true`** when satisfied and **`false`** when not satisfied.
 
 ### Return value
 
-A pair of iterators addressing the positions of the mismatch in the two ranges, the first component iterator to the position in the first range and the second component iterator to the position in the second range. If there is no difference between the elements in the ranges compared or if the binary predicate in the second version is satisfied by all element pairs from the two ranges, then the first component iterator points to the position one past the final element in the first range and the second component iterator to position one past the final element tested in the second range.
+Returns a pair of iterators addressing the positions of the mismatch in the two ranges. The first component iterator points to the position in the first range. The second component iterator points to the position in the second range. If there's no difference between the elements in the ranges compared or if the binary predicate in the second version is satisfied by all element pairs from the two ranges, then the first component iterator points to the position one past the final element in the first range and the second component iterator points to a position one past the final element tested in the second range.
 
 ### Remarks
 
-The first template function assumes that there are as many elements in the range beginning at first2 as there are in the range designated by [first1, last1). If there are more in the second range, they are ignored; if there are less, then undefined behavior will result.
+The first template function assumes that there are as many elements in the range beginning at first2 as there are in the range designated by [first1, last1). If there are more in the second range, they're ignored; if there are less, then undefined behavior will result.
 
 The range to be searched must be valid; all iterators must be dereferenceable and the last position is reachable from the first by incrementation.
 
 The time complexity of the algorithm is linear in the number of elements contained in the shorter range.
 
-The user-defined predicate is not required to impose an equivalence relation that symmetric, reflexive, and transitive between its operands.
+The user-defined predicate isn't required to impose an equivalence relation that symmetric, reflexive, and transitive between its operands.
 
 ### Example
 
@@ -4832,8 +5065,8 @@ The following example demonstrates how to use mismatch. The C++03 overload is sh
 using namespace std;
 
 // Return whether first element is twice the second
-// Note that this is not a symmetric, reflexive, and transitive equivalence.
-// mismatch and equal accept such predicates, but is_permutation does not.
+// Note that this isn't a symmetric, reflexive, and transitive equivalence.
+// mismatch and equal accept such predicates, but is_permutation doesn't.
 bool twice(int elem1, int elem2)
 {
     return elem1 == elem2 * 2;
@@ -4967,7 +5200,7 @@ BidirectionalIterator2 move_backward(
 An iterator that indicates the start of a range to move elements from.
 
 *`last`*\
-An iterator that indicates the end of a range to move elements from. This element is not moved.
+An iterator that indicates the end of a range to move elements from. This element isn't moved.
 
 *`destEnd`*\
 A bidirectional iterator addressing the position of one past the final element in the destination range.
@@ -4980,7 +5213,7 @@ The template function evaluates `*(destEnd - N - 1) = move(*(last - N - 1))` onc
 
 ## <a name="next_permutation"></a> `next_permutation`
 
-Reorders the elements in a range so that the original ordering is replaced by the lexicographically next greater permutation if it exists, where the sense of next may be specified with a binary predicate.
+Reorders the elements in a range so that the original ordering is replaced by the lexicographically next greater permutation if it exists. The sense of lexicographically next may be specified with a binary predicate.
 
 ```cpp
 template<class BidirectionalIterator>
@@ -5014,7 +5247,7 @@ User-defined predicate function object that defines the comparison criterion to 
 
 The range referenced must be valid; all pointers must be dereferenceable and within the sequence the last position is reachable from the first by incrementation.
 
-The default binary predicate is less than and the elements in the range must be less than comparable to insure that the next permutation is well defined.
+The default binary predicate is less than and the elements in the range must be less than comparable to ensure that the next permutation is well defined.
 
 The complexity is linear with at most `(last - first) / 2` swaps.
 
@@ -5159,7 +5392,7 @@ v1 =   ( -3 -2 -1 1 0 2 3 ).
 
 ## <a name="nth_element"></a> `nth_element`
 
-Partitions a range of elements, correctly locating the *n*th element of the sequence in the range so that all the elements in front of it are less than or equal to it and all the elements that follow it in the sequence are greater than or equal to it.
+Partitions a range of elements, correctly locating the *n*th element of the sequence in the range that meets these criteria: All the elements in front of it are less than or equal to it, and all the elements that follow it are greater than or equal to it.
 
 ```cpp
 template<class RandomAccessIterator>
@@ -5212,7 +5445,7 @@ User-defined predicate function object that defines the comparison criterion to 
 
 The range referenced must be valid; all pointers must be dereferenceable and within the sequence the last position is reachable from the first by incrementation.
 
-The `nth_element` algorithm does not guarantee that elements in the subranges either side of the *n*th element are sorted. It thus makes fewer guarantees than `partial_sort`, which orders the elements in the range below some chosen element, and may be used as a faster alternative to `partial_sort` when the ordering of the lower range is not required.
+The `nth_element` algorithm doesn't guarantee that elements in the subranges either side of the *n*th element are sorted. It thus makes fewer guarantees than `partial_sort`, which orders the elements in the range below some chosen element, and may be used as a faster alternative to `partial_sort` when the ordering of the lower range isn't required.
 
 Elements are equivalent, but not necessarily equal, if neither is less than the other.
 
@@ -5284,6 +5517,18 @@ int main() {
 }
 ```
 
+```Output
+ v1 = ( 0 3 6 9 12 15 1 4 7 10 13 16 2 5 8 11 14 17 )
+Position 3 partitioned vector:
+ v1 = ( 1 0 2 3 8 5 9 4 7 6 10 16 13 15 12 11 14 17 )
+Position 4 partitioned (greater) vector:
+ v1 = ( 16 17 14 15 13 12 11 9 7 8 10 6 1 4 5 3 2 0 )
+Shuffled vector:
+ v1 = ( 13 10 6 3 5 2 0 17 11 8 15 9 7 14 16 1 12 4 )
+Position 5 partitioned (UDgreater) vector:
+ v1 = ( 14 17 15 16 13 12 10 11 9 8 0 2 7 5 3 1 6 4 )
+```
+
 ## <a name="none_of"></a> `none_of`
 
 Returns **`true`** when a condition is never present among elements in the given range.
@@ -5315,11 +5560,11 @@ An input iterator that indicates where to start to check a range of elements for
 An input iterator that indicates the end of a range of elements.
 
 *`pred`*\
-The condition to test for. This is provided by a user-defined predicate function object that defines the condition. A unary predicate takes a single argument and returns **`true`** or **`false`**.
+The condition to test for. This test is provided by a user-defined predicate function object that defines the condition. A unary predicate takes a single argument and returns **`true`** or **`false`**.
 
 ### Return value
 
-Returns **`true`** if the condition is not detected at least once in the indicated range, and **`false`** if the condition is detected.
+Returns **`true`** if the condition isn't detected at least once in the indicated range, and **`false`** if the condition is detected.
 
 ### Remarks
 
@@ -5327,7 +5572,7 @@ The template function returns **`true`** only if, for some `N` in the range `[0,
 
 ## <a name="partial_sort"></a> `partial_sort`
 
-Arranges a specified number of the smaller elements in a range into a nondescending order or according to an ordering criterion specified by a binary predicate.
+Arranges a specified number of the smaller elements in a range into a nondescending order. A binary predicate may supply an ordering criterion.
 
 ```cpp
 template<class RandomAccessIterator>
@@ -5380,7 +5625,7 @@ User-defined predicate function object that defines the comparison criterion to 
 
 The range referenced must be valid; all pointers must be dereferenceable and within the sequence the last position is reachable from the first by incrementation.
 
-Elements are equivalent, but not necessarily equal, if neither is less than the other. The `sort` algorithm is not stable and does not guarantee that the relative ordering of equivalent elements will be preserved. The algorithm `stable_sort` does preserve this original ordering.
+Elements are equivalent, but not necessarily equal, if neither is less than the other. The `sort` algorithm isn't stable and doesn't guarantee that the relative ordering of equivalent elements will be preserved. The algorithm `stable_sort` does preserve this original ordering.
 
 The average partial sort complexity is *O*((`last`- `first`) log (`sortEnd`- `first`)).
 
@@ -5522,7 +5767,7 @@ A random-access iterator addressing the element in the destination range one pos
 
 The source and destination ranges must not overlap and must be valid; all pointers must be dereferenceable and within each sequence the last position must be reachable from the first by incrementation.
 
-The binary predicate must provide a strict weak ordering so that elements that are not equivalent are ordered, but elements that are equivalent are not. Two elements are equivalent under less than, but not necessarily equal, if neither is less than the other.
+The binary predicate must provide a strict weak ordering so that elements that aren't equivalent are ordered, but elements that are equivalent aren't. Two elements are equivalent under less than, but not necessarily equal, if neither is less than the other.
 
 ### Example
 
@@ -5600,9 +5845,20 @@ int main() {
 }
 ```
 
+```Output
+Vector v1 = ( 4 3 7 8 0 5 2 1 6 9 )
+List list1 = ( 60 50 20 30 40 10 )
+List list1 Vector v1 = ( 10 20 30 8 0 5 2 1 6 9 )
+The first v1 element one position beyond
+ the last L 1 element inserted was 8.
+List list1 into Vector v2 = ( 10 20 30 40 50 60 9 6 7 8 )
+The first v2 element one position beyond
+ the last L 1 element inserted was 9.
+```
+
 ## <a name="partition"></a> `partition`
 
-Classifies elements in a range into two disjoint sets, with those elements satisfying a unary predicate preceding those that fail to satisfy it.
+Classifies elements in a range into two disjoint sets, with those elements satisfying a unary predicate preceding the ones that fail to satisfy it.
 
 ```cpp
 template<class BidirectionalIterator, class UnaryPredicate>
@@ -5641,7 +5897,7 @@ A bidirectional iterator addressing the position of the first element in the ran
 
 The range referenced must be valid; all pointers must be dereferenceable and within the sequence the last position is reachable from the first by incrementation.
 
-Elements *`a`* and *`b`* are equivalent, but not necessarily equal, if both `pred( a, b )` is false and `pred( b, a )` is false, where *`pred`* is the parameter-specified predicate. The `partition` algorithm is not stable and does not guarantee that the relative ordering of equivalent elements will be preserved. The algorithm `stable_partition` does preserve this original ordering.
+Elements *`a`* and *`b`* are equivalent, but not necessarily equal, if both `pred( a, b )` is false and `pred( b, a )` is false, where *`pred`* is the parameter-specified predicate. The `partition` algorithm isn't stable and doesn't guarantee that the relative ordering of equivalent elements will be preserved. The algorithm `stable_partition` does preserve this original ordering.
 
 The complexity is linear: there are `(last - first)` applications of *`pred`* and at most `(last - first)/2` swaps.
 
@@ -5686,6 +5942,11 @@ int main()
 }
 ```
 
+```Output
+Vector v1 is ( 4 10 7 8 0 5 2 1 6 9 3 ).
+The partitioned set of elements in v1 is: ( 9 10 7 8 6 5 2 1 0 4 3 ).
+```
+
 ## <a name="partition_copy"></a> `partition_copy`
 
 Copies elements for which a condition is **`true`** to one destination, and for which the condition is **`false`** to another. The elements must come from a specified range.
@@ -5727,7 +5988,7 @@ An output iterator used to copy elements that return true for a condition tested
 An output iterator used to copy elements that return false for a condition tested by using *`pred`*.
 
 *`pred`*\
-The condition to test for. This is provided by a user-defined predicate function object that defines the condition to be tested. A unary predicate takes a single argument and returns **`true`** or **`false`**.
+The condition to test for. The test is provided by a user-defined predicate function object that defines the condition to be tested. A unary predicate takes a single argument and returns **`true`** or **`false`**.
 
 ### Remarks
 
@@ -5735,7 +5996,7 @@ The template function copies each element `X` in `[first,last)` to `*dest1++` if
 
 ## <a name="partition_point"></a> `partition_point`
 
-Returns the first element in the given range that does not satisfy the condition. The elements are sorted so that those that satisfy the condition come before those that do not.
+Returns the first element in the given range that doesn't satisfy the condition. The elements are sorted so that the ones that satisfy the condition come before the ones that don't.
 
 ```cpp
 template<class ForwardIterator, class UnaryPredicate>
@@ -5754,11 +6015,11 @@ A `ForwardIterator` that indicates the start of a range to check for a condition
 A `ForwardIterator` that indicates the end of a range.
 
 *`pred`*\
-The condition to test for. This is provided by a user-defined predicate function object that defines the condition to be satisfied by the element being searched for. A unary predicate takes a single argument and returns **`true`** or **`false`**.
+The condition to test for. The test is provided by a user-defined predicate function object that defines the condition to be satisfied by the element being searched for. A unary predicate takes a single argument and returns **`true`** or **`false`**.
 
 ### Return value
 
-Returns a `ForwardIterator` that refers to the first element that does not fulfill the condition tested for by *`pred`*, or returns *`last`* if one is not found.
+Returns a `ForwardIterator` that refers to the first element that doesn't fulfill the condition tested for by *`pred`*, or returns *`last`* if one isn't found.
 
 ### Remarks
 
@@ -5802,7 +6063,7 @@ Heaps have two properties:
 
 - Elements may be added or removed in logarithmic time.
 
-Heaps are an ideal way to implement priority queues and they are used in the implementation of the C++ Standard Library container adaptor [priority_queue Class](priority-queue-class.md).
+Heaps are an ideal way to implement priority queues and they're used in the implementation of the C++ Standard Library container adaptor [priority_queue Class](priority-queue-class.md).
 
 The range referenced must be valid; all pointers must be dereferenceable and within the sequence the last position is reachable from the first by incrementation.
 
@@ -5873,9 +6134,20 @@ int main()
 }
 ```
 
+```Output
+The heaped version of vector v1 is ( 9 7 8 5 1 6 3 2 4 ).
+The reheaped v1 with 10 added is ( 10 9 8 5 7 6 3 2 4 1 ).
+The heap v1 with 10 removed is ( 9 7 8 5 1 6 3 2 4 10 ).
+
+The 'greater than' reheaped v1 puts the smallest element first:
+ ( 0 1 3 4 2 6 8 5 9 10 7 ).
+The 'greater than' heaped v1 with the smallest element
+ removed from the heap is: ( 1 2 3 4 7 6 8 5 9 10 0 ).
+```
+
 ## <a name="prev_permutation"></a> `prev_permutation`
 
-Reorders the elements in a range so that the original ordering is replaced by the lexicographically previous greater permutation if it exists, where the sense of previous may be specified with a binary predicate.
+Reorders the elements in a range so that the original ordering is replaced by the lexicographically previous greater permutation if it exists. A binary predicate may specify the sense of lexicographically previous.
 
 ```cpp
 template<class BidirectionalIterator>
@@ -6086,7 +6358,7 @@ Heaps have two properties:
 
 - Elements may be added or removed in logarithmic time.
 
-Heaps are an ideal way to implement priority queues and they are used in the implementation of the C++ Standard Library container adaptor [priority_queue Class](priority-queue-class.md).
+Heaps are an ideal way to implement priority queues and they're used in the implementation of the C++ Standard Library container adaptor [priority_queue Class](priority-queue-class.md).
 
 The range referenced must be valid; all pointers must be dereferenceable and within the sequence the last position is reachable from the first by incrementation.
 
@@ -6161,13 +6433,27 @@ int main() {
 }
 ```
 
+```Output
+Vector v1 is ( 5 4 8 9 1 6 3 2 7 ).
+The heaped version of vector v1 is ( 9 7 8 5 1 6 3 2 4 ).
+The heap v1 with 10 pushed back is ( 9 7 8 5 1 6 3 2 4 10 ).
+The reheaped v1 with 10 added is ( 10 9 8 5 7 6 3 2 4 1 ).
+
+The greater-than heaped version of v1 is
+ ( 1 2 3 4 7 6 8 5 10 9 ).
+The greater-than heap v1 with 11 pushed back is
+ ( 1 2 3 4 7 6 8 5 10 9 0 ).
+The greater than reheaped v1 with 11 added is
+ ( 0 1 3 4 2 6 8 5 10 9 7 ).
+```
+
 ## <a name="random_shuffle"></a> `random_shuffle`
 
 The `std::random_shuffle()` function is deprecated, replaced by [`std::shuffle`](algorithm-functions.md#shuffle). For a code example and more information, see [`<random>`](random.md) and the Stack Overflow post [Why are `std::random_shuffle` methods being deprecated in C++14?](https://go.microsoft.com/fwlink/p/?linkid=397954).
 
 ## <a name="remove"></a> `remove`
 
-Eliminates a specified value from a given range without disturbing the order of the remaining elements and returning the end of a new range free of the specified value.
+Eliminates a specified value from a given range without disturbing the order of the remaining elements. Returns the end of a new range free of the specified value.
 
 ```cpp
 template<class ForwardIterator, class Type>
@@ -6210,7 +6496,7 @@ The order of the elements not removed remains stable.
 
 The `operator==` used to determine the equality between elements must impose an equivalence relation between its operands.
 
-The complexity is linear; there are (`last` - `first`) comparisons for equality.
+The complexity is linear. It makes (`last` - `first`) comparisons for equality.
 
 The [`list` class](list-class.md) has a more efficient member function version of `remove`, which also relinks pointers.
 
@@ -6261,9 +6547,15 @@ int main()
 }
 ```
 
+```Output
+Vector v1 is ( 4 7 7 7 0 5 7 1 6 9 3 7 8 2 ).
+Vector v1 with value 7 removed is ( 4 0 5 1 6 9 3 8 2 9 3 7 8 2 ).
+Vector v1 resized with value 7 removed is ( 4 0 5 1 6 9 3 8 2 ).
+```
+
 ## <a name="remove_copy"></a> `remove_copy`
 
-Copies elements from a source range to a destination range, except that elements of a specified value are not copied, without disturbing the order of the remaining elements and returning the end of a new destination range.
+Copies elements from a source range to a destination range, except that elements of a specified value aren't copied, without disturbing the order of the remaining elements. Returns the end of a new destination range.
 
 ```cpp
 template<class InputIterator, class OutputIterator, class Type>
@@ -6313,7 +6605,7 @@ The order of the elements not removed remains stable.
 
 The `operator==` used to determine the equality between elements must impose an equivalence relation between its operands.
 
-The complexity is linear; there are (`last` - `first`) comparisons for equality and at most (`last` - `first`) assignments.
+The complexity is linear. It makes (`last` - `first`) comparisons for equality and at most (`last` - `first`) assignments.
 
 ### Example
 
@@ -6357,6 +6649,13 @@ int main()
         cout << *Iter2 << " ";
     cout << ")." << endl;
 }
+```
+
+```Output
+The original vector v1 is:     ( 4 7 7 7 0 5 7 1 6 9 3 7 8 2 ).
+Vector v1 is left unchanged as ( 4 7 7 7 0 5 7 1 6 9 3 7 8 2 ).
+Vector v2 is a copy of v1 with the value 7 removed:
+ ( 4 0 5 1 6 9 3 8 2 0 ).
 ```
 
 ## <a name="remove_copy_if"></a> `remove_copy_if`
@@ -6411,7 +6710,7 @@ The order of the elements not removed remains stable.
 
 The `operator==` used to determine the equality between elements must impose an equivalence relation between its operands.
 
-The complexity is linear: there are (`last` - `first`) comparisons for equality and at most (`last` - `first`) assignments.
+The complexity is linear. It makes (`last` - `first`) comparisons for equality and at most (`last` - `first`) assignments.
 
 For information on how these functions behave, see [Checked Iterators](checked-iterators.md).
 
@@ -6466,9 +6765,17 @@ int main()
 }
 ```
 
+```Output
+The original vector v1 is:      ( 4 7 7 7 0 5 7 1 6 9 3 7 8 2 ).
+After the appliation of remove_copy_if to v1,
+ vector v1 is left unchanged as ( 4 7 7 7 0 5 7 1 6 9 3 7 8 2 ).
+Vector v2 is a copy of v1 with values greater than 6 removed:
+ ( 4 0 5 1 6 3 2 ).
+```
+
 ## <a name="remove_if"></a> `remove_if`
 
-Eliminates elements that satisfy a predicate from a given range without disturbing the order of the remaining elements and returning the end of a new range free of the specified value.
+Eliminates elements that satisfy a predicate from a given range without disturbing the order of the remaining elements. Returns the end of a new range free of the specified value.
 
 ```cpp
 template<class ForwardIterator, class UnaryPredicate>
@@ -6511,7 +6818,7 @@ The order of the elements not removed remains stable.
 
 The `operator==` used to determine the equality between elements must impose an equivalence relation between its operands.
 
-The complexity is linear: there are (`last` - `first`) comparisons for equality.
+The complexity is linear. It makes (`last` - `first`) comparisons for equality.
 
 List has a more efficient member function version of remove which relinks pointers.
 
@@ -6567,6 +6874,14 @@ int main()
 }
 ```
 
+```Output
+Vector v1 is ( 4 7 7 7 0 5 7 1 6 9 3 7 8 2 ).
+Vector v1 with elements satisfying greater6 removed is
+ ( 4 0 5 1 6 3 2 1 6 9 3 7 8 2 ).
+Vector v1 resized elements satisfying greater6 removed is
+ ( 4 0 5 1 6 3 2 ).
+```
+
 ## <a name="replace"></a> `replace`
 
 Examines each element in a range and replaces it if it matches a specified value.
@@ -6613,7 +6928,7 @@ The order of the elements not replaced remains stable.
 
 The `operator==` used to determine the equality between elements must impose an equivalence relation between its operands.
 
-The complexity is linear; there are (`last` - `first`) comparisons for equality and at most (`last` - `first`) assignments of new values.
+The complexity is linear. It makes (`last` - `first`) comparisons for equality and at most (`last` - `first`) assignments of new values.
 
 ### Example
 
@@ -6652,6 +6967,13 @@ int main()
         cout << *Iter1 << " ";
     cout << ")." << endl;
 }
+```
+
+```Output
+The original vector v1 is:
+ ( 4 7 7 7 0 5 7 1 6 9 3 7 8 2 ).
+The vector v1 with a value 700 replacing that of 7 is:
+ ( 4 700 700 700 0 5 700 1 6 9 3 700 8 2 ).
 ```
 
 ## <a name="replace_copy"></a> `replace_copy`
@@ -6709,7 +7031,7 @@ The order of the elements not replaced remains stable.
 
 The `operator==` used to determine the equality between elements must impose an equivalence relation between its operands.
 
-The complexity is linear: there are (`last` - `first`) comparisons for equality and at most (`last` - `first`) assignments of new values.
+The complexity is linear. It makes (`last` - `first`) comparisons for equality and at most (`last` - `first`) assignments of new values.
 
 ### Example
 
@@ -6769,6 +7091,15 @@ int main()
 }
 ```
 
+```Output
+The original vector v1 is:
+ ( 4 7 7 7 0 5 7 1 6 9 3 7 8 2 ).
+The vector v1 with a value 70 replacing that of 7 is:
+ ( 4 70 70 70 0 5 70 1 6 9 3 70 8 2 ).
+The list copy L1 of v1 with the value 0 replacing that of 7 is:
+ ( 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ).
+```
+
 ## <a name="replace_copy_if"></a> `replace_copy_if`
 
 Examines each element in a source range and replaces it if it satisfies a specified predicate while copying the result into a new destination range.
@@ -6824,7 +7155,7 @@ The order of the elements not replaced remains stable.
 
 The `operator==` used to determine the equality between elements must impose an equivalence relation between its operands.
 
-The complexity is linear; there are (`last` - `first`) comparisons for equality and at most (`last` - `first`) assignments of new values.
+The complexity is linear. It makes (`last` - `first`) comparisons for equality and at most (`last` - `first`) assignments of new values.
 
 ### Example
 
@@ -6892,6 +7223,17 @@ int main()
 }
 ```
 
+```Output
+The original vector v1 is:
+ ( 4 7 7 7 0 5 7 1 6 9 3 7 8 2 ).
+The vector v1 with values of 70 replacing those greater
+ than 6 in the 1st half & copied into the 2nd half is:
+ ( 4 7 7 7 0 5 7 1 6 9 3 7 8 2 ).
+A list copy of vector v1 with the value -1
+ replacing those greater than 6 is:
+ ( 4 7 7 7 0 5 7 1 6 9 3 7 8 2 ).
+```
+
 ## <a name="replace_if"></a> `replace_if`
 
 Examines each element in a range and replaces it if it satisfies a specified predicate.
@@ -6940,7 +7282,7 @@ The algorithm `replace_if` is a generalization of the algorithm `replace`, allow
 
 The `operator==` used to determine the equality between elements must impose an equivalence relation between its operands.
 
-The complexity is linear: there are (`last` - `first`) comparisons for equality and at most (`last` - `first`) assignments of new values.
+The complexity is linear. It makes (`last` - `first`) comparisons for equality and at most (`last` - `first`) assignments of new values.
 
 ### Example
 
@@ -6986,6 +7328,14 @@ int main()
         cout << *Iter1 << " ";
     cout << ")." << endl;
 }
+```
+
+```Output
+The original vector v1 is:
+ ( 4 7 7 7 0 5 7 1 6 9 3 7 8 2 ).
+The vector v1 with a value 70 replacing those
+ elements satisfying the greater6 predicate is:
+ ( 4 7 7 7 0 5 7 1 6 9 3 7 8 2 ).
 ```
 
 ## <a name="reverse"></a> `reverse`
@@ -7145,6 +7495,15 @@ int main()
 }
 ```
 
+```Output
+The original vector v1 is:
+ ( 0 1 2 3 4 5 6 7 8 9 ).
+The copy v2 of the reversed vector v1 is:
+ ( 9 8 7 6 5 4 3 2 1 0 ).
+The original vector v1 remains unmodified as:
+ ( 0 1 2 3 4 5 6 7 8 9 ).
+```
+
 ## <a name="rotate"></a> `rotate`
 
 Exchanges the elements in two adjacent ranges.
@@ -7173,7 +7532,7 @@ The execution policy to use.
 A forward iterator addressing the position of the first element in the range to be rotated.
 
 *`middle`*\
-A forward iterator defining the boundary within the range that addresses the position of the first element in the second part of the range whose elements are to be exchanged with those in the first part of the range.
+A forward iterator defining the boundary within the range that addresses the position of the first element in the second part of the range whose elements are to be exchanged with the ones in the first part of the range.
 
 *`last`*\
 A forward iterator addressing the position one past the final element in the range to be rotated.
@@ -7182,7 +7541,7 @@ A forward iterator addressing the position one past the final element in the ran
 
 The ranges referenced must be valid; all pointers must be dereferenceable and within the sequence the last position is reachable from the first by incrementation.
 
-The complexity is linear with at most (`last` - `first`) swaps.
+The complexity is linear. It makes at most (`last` - `first`) swaps.
 
 ### Example
 
@@ -7289,7 +7648,7 @@ The execution policy to use.
 A forward iterator addressing the position of the first element in the range to be rotated.
 
 *`middle`*\
-A forward iterator defining the boundary within the range that addresses the position of the first element in the second part of the range whose elements are to be exchanged with those in the first part of the range.
+A forward iterator defining the boundary within the range that addresses the position of the first element in the second part of the range whose elements are to be exchanged with the ones in the first part of the range.
 
 *`last`*\
 A forward iterator addressing the position one past the final element in the range to be rotated.
@@ -7305,7 +7664,7 @@ An output iterator addressing the position one past the final element in the des
 
 The ranges referenced must be valid; all pointers must be dereferenceable and within the sequence the last position is reachable from the first by incrementation.
 
-The complexity is linear with at most (`last` - `first`) swaps.
+The complexity is linear. It makes at most (`last` - `first`) swaps.
 
 ### Example
 
@@ -7367,6 +7726,27 @@ int main()
 }
 ```
 
+```Output
+Vector v1 is ( -3 -2 -1 0 1 2 3 4 5 ).
+After rotating, the vector v1 remains unchanged as:
+ v1 = ( -3 -2 -1 0 1 2 3 4 5 ).
+After rotating, the copy of vector v1 in v2 is:
+ v2 = ( 0 1 2 3 4 5 -3 -2 -1 ).
+The original deque d1 is ( 0 1 2 3 4 5 ).
+After the rotation of a single deque element to the back,
+ d2 is   ( 1 2 3 4 5 0 ).
+After the rotation of a single deque element to the back,
+ d2 is   ( 2 3 4 5 0 1 ).
+After the rotation of a single deque element to the back,
+ d2 is   ( 3 4 5 0 1 2 ).
+After the rotation of a single deque element to the back,
+ d2 is   ( 4 5 0 1 2 3 ).
+After the rotation of a single deque element to the back,
+ d2 is   ( 5 0 1 2 3 4 ).
+After the rotation of a single deque element to the back,
+ d2 is   ( 0 1 2 3 4 5 ).
+```
+
 ## <a name="sample"></a> `sample`
 
 ```cpp
@@ -7381,7 +7761,7 @@ SampleIterator sample(
 
 ## <a name="search"></a> `search`
 
-Searches for the first occurrence of a sequence within a target range whose elements are equal to those in a given sequence of elements or whose elements are equivalent in a sense specified by a binary predicate to the elements in the given sequence.
+Searches for the first occurrence of a sequence within a target range whose elements are equal to the ones in a given sequence of elements or whose elements are equivalent in a sense specified by a binary predicate to the elements in the given sequence.
 
 ```cpp
 template<class ForwardIterator1, class ForwardIterator2>
@@ -7456,7 +7836,7 @@ The `operator==` used to determine the match between an element and the specifie
 
 The ranges referenced must be valid; all pointers must be dereferenceable and within each sequence the last position is reachable from the first by incrementation.
 
-Average complexity is linear with respect to the size of the searched range, and worst case complexity is also linear with respect to the size of the sequence being searched for.
+Average complexity is linear with respect to the size of the searched range. Worst case complexity is also linear with respect to the size of the sequence being searched for.
 
 ### Example
 
@@ -7712,7 +8092,7 @@ predicate one_half in v1 and the first one begins at position 15.
 
 ## <a name="set_difference"></a> `set_difference`
 
-Unites all of the elements that belong to one sorted source range, but not to a second sorted source range, into a single, sorted destination range, where the ordering criterion may be specified by a binary predicate.
+Unites all of the elements that belong to one sorted source range, but not to a second sorted source range, into a single, sorted destination range. A binary predicate may specify the ordering criterion.
 
 ```cpp
 template<class InputIterator1, class InputIterator2, class OutputIterator>
@@ -7783,13 +8163,13 @@ An output iterator addressing the position one past the last element in the sort
 
 The sorted source ranges referenced must be valid; all pointers must be dereferenceable and within each sequence the last position must be reachable from the first by incrementation.
 
-The destination range should not overlap either of the source ranges and should be large enough to contain the first source range.
+The destination range shouldn't overlap either of the source ranges and should be large enough to contain the first source range.
 
 The sorted source ranges must each be arranged as a precondition to the application of the `set_difference` algorithm in accordance with the same ordering as is to be used by the algorithm to sort the combined ranges.
 
-The operation is stable as the relative order of elements within each range is preserved in the destination range. The source ranges are not modified by the algorithm merge.
+The operation is stable as the relative order of elements within each range is preserved in the destination range. The source ranges aren't modified by the algorithm merge.
 
-The value types of the input iterators need to be less-than-comparable to be ordered, so that, given two elements, it may be determined either that they are equivalent (in the sense that neither is less than the other) or that one is less than the other. This results in an ordering between the nonequivalent elements. When there are equivalent elements in both source ranges, the elements in the first range precede the elements from the second source range in the destination range. If the source ranges contain duplicates of an element such that there are more in the first source range than in the second, then the destination range will contain the number by which the occurrences of those elements in the first source range exceed the occurrences of those elements in the second source range.
+The value types of the input iterators must be less-than comparable to be ordered. That is, given two elements, you can determine either that one is less than the other, or that they're equivalent. (Here, equivalent means that neither is less than the other.) This comparison results in an ordering between the nonequivalent elements. When there are equivalent elements in both source ranges, the elements in the first range precede the elements from the second source range in the destination range. If the source ranges contain duplicates of an element such that there are more in the first source range than in the second, then the destination range will contain the number by which the occurrences of those elements in the first source range exceed the occurrences of those elements in the second source range.
 
 The complexity of the algorithm is linear with at most `2 * ((last1 - first1) + (last2 - first2)) - 1` comparisons for nonempty source ranges.
 
@@ -7912,6 +8292,27 @@ int main()
 }
 ```
 
+```Output
+Original vector v1a with range sorted by the
+ binary predicate less than is v1a = ( -1 0 1 2 3 4 ).
+Original vector v1b with range sorted by the
+ binary predicate less than is v1b = ( -3 -2 -1 0 ).
+Original vector v2a with range sorted by the
+ binary predicate greater is   v2a = ( 4 3 2 1 0 -1 ).
+Original vector v2b with range sorted by the
+ binary predicate greater is   v2b = ( 0 -1 -2 -3 ).
+Original vector v3a with range sorted by the
+ binary predicate mod_lesser is   v3a = ( 0 -1 1 2 3 4 ).
+Original vector v3b with range sorted by the
+ binary predicate mod_lesser is   v3b = ( 0 -1 -2 -3 ).
+Set_difference of source ranges with default order,
+ vector v1mod = ( 1 2 3 4 ).
+Set_difference of source ranges with binarypredicate greater specified,
+ vector v2mod = ( 4 3 2 1 ).
+Set_difference of source ranges with binary predicate mod_lesser specified,
+ vector v3mod = ( 1 4 ).
+```
+
 ## <a name="set_intersection"></a> `set_intersection`
 
 Unites all of the elements that belong to both sorted source ranges into a single, sorted destination range, where the ordering criterion may be specified by a binary predicate.
@@ -7985,13 +8386,13 @@ An output iterator addressing the position one past the last element in the sort
 
 The sorted source ranges referenced must be valid; all pointers must be dereferenceable and within each sequence the last position must be reachable from the first by incrementation.
 
-The destination range should not overlap either of the source ranges and should be large enough to contain the destination range.
+The destination range shouldn't overlap either of the source ranges and should be large enough to contain the destination range.
 
 The sorted source ranges must each be arranged as a precondition to the application of the merge algorithm in accordance with the same ordering as is to be used by the algorithm to sort the combined ranges.
 
-The operation is stable as the relative order of elements within each range is preserved in the destination range. The source ranges are not modified by the algorithm.
+The operation is stable as the relative order of elements within each range is preserved in the destination range. The source ranges aren't modified by the algorithm.
 
-The value types of the input iterators need be less-than comparable to be ordered, so that, given two elements, it may be determined either that they are equivalent (in the sense that neither is less than the other) or that one is less than the other. This results in an ordering between the nonequivalent elements. When there are equivalent elements in both source ranges, the elements in the first range precede the elements from the second source range in the destination range. If the source ranges contain duplicates of an element, then the destination range will contain the maximum number of those elements that occur in both source ranges.
+The value types of the input iterators must be less-than comparable to be ordered. That is, given two elements, you can determine either that one is less than the other, or that they're equivalent. (Here, equivalent means that neither is less than the other.) This comparison results in an ordering between the nonequivalent elements. When there are equivalent elements in both source ranges, the elements in the first range precede the elements from the second source range in the destination range. If the source ranges contain duplicates of an element, then the destination range will contain the maximum number of those elements that occur in both source ranges.
 
 The complexity of the algorithm is linear with at most `2 * ((last1 - first1) + (last2 - first2)) - 1` comparisons for nonempty source ranges.
 
@@ -8110,9 +8511,30 @@ int main()
 }
 ```
 
+```Output
+Original vector v1a with range sorted by the
+ binary predicate less than is v1a = ( -1 0 1 2 3 ).
+Original vector v1b with range sorted by the
+ binary predicate less than is v1b = ( -3 -2 -1 0 1 ).
+Original vector v2a with range sorted by the
+ binary predicate greater is   v2a = ( 3 2 1 0 -1 ).
+Original vector v2b with range sorted by the
+ binary predicate greater is   v2b = ( 1 0 -1 -2 -3 ).
+Original vector v3a with range sorted by the
+ binary predicate mod_lesser is   v3a = ( 0 -1 1 2 3 ).
+Original vector v3b with range sorted by the
+ binary predicate mod_lesser is   v3b = ( 0 -1 1 -2 -3 ).
+Intersection of source ranges with default order,
+ vector v1mod = ( -1 0 1 ).
+Intersection of source ranges with binary predicate greater specified,
+ vector v2mod = ( 1 0 -1 ).
+Intersection of source ranges with binary predicate mod_lesser specified,
+ vector v3mod = ( 0 -1 1 2 3 ).
+```
+
 ## <a name="set_symmetric_difference"></a> `set_symmetric_difference`
 
-Unites all of the elements that belong to one, but not both, of the sorted source ranges into a single, sorted destination range, where the ordering criterion may be specified by a binary predicate.
+Unites all of the elements that belong to one, but not both, of the sorted source ranges into a single, sorted destination range. A binary predicate may specify the ordering criterion.
 
 ```cpp
 template<class InputIterator1, class InputIterator2, class OutputIterator>
@@ -8183,13 +8605,13 @@ An output iterator addressing the position one past the last element in the sort
 
 The sorted source ranges referenced must be valid; all pointers must be dereferenceable and within each sequence the last position must be reachable from the first by incrementation.
 
-The destination range should not overlap either of the source ranges and should be large enough to contain the destination range.
+The destination range shouldn't overlap either of the source ranges and should be large enough to contain the destination range.
 
 The sorted source ranges must each be arranged as a precondition to the application of the `merge*` algorithm in accordance with the same ordering as is to be used by the algorithm to sort the combined ranges.
 
-The operation is stable as the relative order of elements within each range is preserved in the destination range. The source ranges are not modified by the algorithm merge.
+The operation is stable as the relative order of elements within each range is preserved in the destination range. The source ranges aren't modified by the algorithm merge.
 
-The value types of the input iterators need be less-than comparable to be ordered, so that, given two elements, it may be determined either that they are equivalent (in the sense that neither is less than the other) or that one is less than the other. This results in an ordering between the nonequivalent elements. When there are equivalent elements in both source ranges, the elements in the first range precede the elements from the second source range in the destination range. If the source ranges contain duplicates of an element, then the destination range will contain the absolute value of the number by which the occurrences of those elements in the one of the source ranges exceeds the occurrences of those elements in the second source range.
+The value types of the input iterators must be less-than comparable to be ordered. That is, given two elements, you can determine either that one is less than the other, or that they're equivalent. (Here, equivalent means that neither is less than the other.) This comparison results in an ordering between the nonequivalent elements. When there are equivalent elements in both source ranges, the elements in the first range precede the elements from the second source range in the destination range. If the source ranges contain duplicates of an element, then the destination range will contain the absolute value of the number by which the occurrences of those elements in the one of the source ranges exceeds the occurrences of those elements in the second source range.
 
 The complexity of the algorithm is linear with at most `2 * ((last1 - first1) + (last2 - first2)) - 1` comparisons for nonempty source ranges.
 
@@ -8312,9 +8734,30 @@ int main()
 }
 ```
 
+```Output
+Original vector v1a with range sorted by the
+ binary predicate less than is v1a = ( -1 0 1 2 3 4 ).
+Original vector v1b with range sorted by the
+ binary predicate less than is v1b = ( -3 -2 -1 0 ).
+Original vector v2a with range sorted by the
+ binary predicate greater is   v2a = ( 4 3 2 1 0 -1 ).
+Original vector v2b with range sorted by the
+ binary predicate greater is   v2b = ( 0 -1 -2 -3 ).
+Original vector v3a with range sorted by the
+ binary predicate mod_lesser is   v3a = ( 0 -1 1 2 3 4 ).
+Original vector v3b with range sorted by the
+ binary predicate mod_lesser is   v3b = ( 0 -1 -2 -3 ).
+Set_symmetric_difference of source ranges with default order,
+ vector v1mod = ( -3 -2 1 2 3 4 ).
+Set_symmetric_difference of source ranges with binarypredicate greater specified,
+ vector v2mod = ( 4 3 2 1 -2 -3 ).
+Set_symmetric_difference of source ranges with binary predicate mod_lesser specified,
+ vector v3mod = ( 1 4 ).
+```
+
 ## <a name="set_union"></a> `set_union`
 
-Unites all of the elements that belong to at least one of two sorted source ranges into a single, sorted destination range, where the ordering criterion may be specified by a binary predicate.
+Unites all of the elements that belong to at least one of two sorted source ranges into a single, sorted destination range. A binary predicate may specify the ordering criterion.
 
 ```cpp
 template<class InputIterator1, class InputIterator2, class OutputIterator>
@@ -8385,13 +8828,13 @@ An output iterator addressing the position one past the last element in the sort
 
 The sorted source ranges referenced must be valid; all pointers must be dereferenceable and within each sequence the last position must be reachable from the first by incrementation.
 
-The destination range should not overlap either of the source ranges and should be large enough to contain the destination range.
+The destination range shouldn't overlap either of the source ranges and should be large enough to contain the destination range.
 
 The sorted source ranges must each be arranged as a precondition to the application of the `merge` algorithm in accordance with the same ordering as is to be used by the algorithm to sort the combined ranges.
 
-The operation is stable as the relative order of elements within each range is preserved in the destination range. The source ranges are not modified by the algorithm `merge`.
+The operation is stable as the relative order of elements within each range is preserved in the destination range. The source ranges aren't modified by the algorithm `merge`.
 
-The value types of the input iterators need be less-than comparable to be ordered, so that, given two elements, it may be determined either that they are equivalent (in the sense that neither is less than the other) or that one is less than the other. This results in an ordering between the nonequivalent elements. When there are equivalent elements in both source ranges, the elements in the first range precede the elements from the second source range in the destination range. If the source ranges contain duplicates of an element, then the destination range will contain the maximum number of those elements that occur in both source ranges.
+The value types of the input iterators must be less-than comparable to be ordered. That is, given two elements, you can determine either that one is less than the other, or that they're equivalent. (Here, equivalent means that neither is less than the other.) This comparison results in an ordering between the nonequivalent elements. When there are equivalent elements in both source ranges, the elements in the first range precede the elements from the second source range in the destination range. If the source ranges contain duplicates of an element, then the destination range will contain the maximum number of those elements that occur in both source ranges.
 
 The complexity of the algorithm is linear with at most `2 * ((last1 - first1) + (last2 - first2)) - 1` comparisons.
 
@@ -8514,6 +8957,27 @@ int main()
 }
 ```
 
+```Output
+Original vector v1a with range sorted by the
+ binary predicate less than is v1a = ( -1 0 1 2 3 ).
+Original vector v1b with range sorted by the
+ binary predicate less than is v1b = ( -3 -2 -1 0 1 ).
+Original vector v2a with range sorted by the
+ binary predicate greater is   v2a = ( 3 2 1 0 -1 ).
+Original vector v2b with range sorted by the
+ binary predicate greater is   v2b = ( 1 0 -1 -2 -3 ).
+Original vector v3a with range sorted by the
+ binary predicate mod_lesser is   v3a = ( 0 -1 1 2 3 ).
+Original vector v3b with range sorted by the
+ binary predicate mod_lesser is   v3b = ( 0 -1 1 -2 -3 ).
+Union of source ranges with default order,
+ vector v1mod = ( -3 -2 -1 0 1 2 3 ).
+Union of source ranges with binary predicate greater specified,
+ vector v2mod = ( 3 2 1 0 -1 -2 -3 ).
+Union of source ranges with binary predicate mod_lesser specified,
+ vector v3mod = ( 0 -1 1 2 3 ).
+```
+
 ## <a name="shuffle"></a> `shuffle`
 
 Shuffles (rearranges) elements for a given range by using a random number generator.
@@ -8589,7 +9053,7 @@ User-defined predicate function object that defines the comparison criterion to 
 
 The range referenced must be valid; all pointers must be dereferenceable and within the sequence the last position is reachable from the first by incrementation.
 
-Elements are equivalent, but not necessarily equal, if neither is less than the other. The `sort` algorithm is not stable and so does not guarantee that the relative ordering of equivalent elements will be preserved. The algorithm `stable_sort` does preserve this original ordering.
+Elements are equivalent, but not necessarily equal, if neither is less than the other. The `sort` algorithm isn't stable and so doesn't guarantee that the relative ordering of equivalent elements will be preserved. The algorithm `stable_sort` does preserve this original ordering.
 
 The average of a sort complexity is `O( N log N )`, where *N* = *`last`* - *`first`*.
 
@@ -8699,9 +9163,9 @@ Heaps have two properties:
 
 After the application if this algorithm, the range it was applied to is no longer a heap.
 
-This is not a stable sort because the relative order of equivalent elements is not necessarily preserved.
+`sort_heap` isn't a stable sort because the relative order of equivalent elements isn't necessarily preserved.
 
-Heaps are an ideal way to implement priority queues and they are used in the implementation of the C++ Standard Library container adaptor [`priority_queue` Class](priority-queue-class.md).
+Heaps are an ideal way to implement priority queues and they're used in the implementation of the C++ Standard Library container adaptor [`priority_queue` Class](priority-queue-class.md).
 
 The range referenced must be valid; all pointers must be dereferenceable and within the sequence the last position is reachable from the first by incrementation.
 
@@ -8761,9 +9225,19 @@ int main()
 }
 ```
 
+```Output
+Initially: ( 1 2 3 4 5 6 7 8 9 )
+After random_shuffle: ( 5 4 8 9 1 6 3 2 7 )
+     After make_heap: ( 9 7 8 5 1 6 3 2 4 )
+     After sort_heap: ( 1 2 3 4 5 6 7 8 9 )
+             After random_shuffle: ( 1 3 6 8 9 5 4 2 7 )
+After make_heap with greater<int>: ( 1 2 4 3 9 5 6 8 7 )
+After sort_heap with greater<int>: ( 9 8 7 6 5 4 3 2 1 )
+```
+
 ## <a name="stable_partition"></a> `stable_partition`
 
-Classifies elements in a range into two disjoint sets, with those elements satisfying a unary predicate preceding those that fail to satisfy it, preserving the relative order of equivalent elements.
+Classifies elements in a range into two disjoint sets, with the elements that satisfy a unary predicate preceding the ones that fail to satisfy it, preserving the relative order of equivalent elements.
 
 ```cpp
 template<class BidirectionalIterator, class UnaryPredicate>
@@ -8802,7 +9276,7 @@ A bidirectional iterator addressing the position of the first element in the ran
 
 The range referenced must be valid; all pointers must be dereferenceable and within the sequence the last position is reachable from the first by incrementation.
 
-Elements *a* and *b* are equivalent, but not necessarily equal, if both `pred( a, b )` is false and `pred( b, a )` is false, where *`pred`* is the parameter-specified predicate. The `stable_partition` algorithm is stable and guarantees that the relative ordering of equivalent elements will be preserved. The algorithm `partition` does not necessarily preserve this original ordering.
+Elements *a* and *b* are equivalent, but not necessarily equal, if both `pred( a, b )` is false and `pred( b, a )` is false, where *`pred`* is the parameter-specified predicate. The `stable_partition` algorithm is stable and guarantees that the relative ordering of equivalent elements will be preserved. The algorithm `partition` doesn't necessarily preserve this original ordering.
 
 ### Example
 
@@ -8851,9 +9325,17 @@ int main()
 }
 ```
 
+```Output
+Vector v1 is ( 4 10 5 5 5 5 5 1 6 9 3 7 8 2 0 5 ).
+The partitioned set of elements in v1 is:
+ ( 10 6 9 7 8 4 5 5 5 5 5 1 3 2 0 5 ).
+The first element in v1 to fail to satisfy the
+ predicate greater5 is: 4.
+```
+
 ## <a name="stable_sort"></a> `stable_sort`
 
-Arranges the elements in a specified range into a nondescending order or according to an ordering criterion specified by a binary predicate and preserves the relative ordering of equivalent elements.
+Arranges the elements in a specified range into a nondescending order or according to an ordering criterion specified by a binary predicate. It preserves the relative ordering of equivalent elements.
 
 ```cpp
 template<class BidirectionalIterator>
@@ -8901,7 +9383,7 @@ The range referenced must be valid; all pointers must be dereferenceable and wit
 
 Elements are equivalent, but not necessarily equal, if neither is less than the other. The `sort` algorithm is stable and guarantees that the relative ordering of equivalent elements will be preserved.
 
-The run-time complexity of `stable_sort` depends on the amount of memory available, but the best case (given sufficient memory) is `O(N log N)` and the worst case is `O(N (log N)^2)`, where *N* = *`last`* - *`first`*. Usually, the `sort` algorithm is significantly faster than `stable_sort`.
+The run-time complexity of `stable_sort` depends on the amount of memory available, but the best case (given sufficient memory) is `O(N log N)` and the worst case is `O(N (log N)^2)`, where *N* = *`last`* - *`first`*. Usually, the `sort` algorithm is faster than `stable_sort`.
 
 ### Example
 
@@ -9159,7 +9641,7 @@ After the swap_range deque d1 is   ( 0 1 2 3 4 5 ).
 
 ## <a name="transform"></a> `transform`
 
-Applies a specified function object to each element in a source range or to a pair of elements from two source ranges and copies the return values of the function object into a destination range.
+Applies a specified function object to each element in a source range or to a pair of elements from two source ranges. Then, it copies the return values of the function object into a destination range.
 
 ```cpp
 template<class InputIterator, class OutputIterator, class UnaryFunction>
@@ -9201,19 +9683,19 @@ ForwardIterator transform(
 The execution policy to use.
 
 *`first1`*\
-An input iterator addressing the position of the first element in the first source range to be operated on.
+An input iterator addressing the position of the first element in the first source range to operate on.
 
 *`last1`*\
-An input iterator addressing the position one past the final element in the first source range operated on.
+An input iterator addressing the position one past the final element in the first source range to operate on.
 
 *`first2`*\
-An input iterator addressing the position of the first element in the second source range to be operated on.
+An input iterator addressing the position of the first element in the second source range to operate on.
 
 *`result`*\
 An output iterator addressing the position of the first element in the destination range.
 
 *`func`*\
-User-defined unary function object used in the first version of the algorithm that is applied to each element in the first source range or A user-defined (UD) binary function object used in the second version of the algorithm that is applied pairwise, in a forward order, to the two source ranges.
+User-defined unary function object used in the first version of the algorithm to apply to each element in the first source range or a user-defined (UD) binary function object used in the second version of the algorithm that is applied pairwise, in a forward order, to the two source ranges.
 
 ### Return value
 
@@ -9225,7 +9707,7 @@ The ranges referenced must be valid; all pointers must be dereferenceable and wi
 
 If *result* is set equal to *`first1`* in the first version of the algorithm, then the source and destination ranges will be the same and the sequence will be modified in place. But the *`result`* may not address a position within the range [`first1` + 1, `last1`).
 
-The complexity is linear with at most (`last1` - `first1`) comparisons.
+The complexity is linear. It makes at most (`last1` - `first1`) comparisons.
 
 ### Example
 
@@ -9315,7 +9797,7 @@ v3 = ( 320 180 80 20 0 20 80 ).
 
 ## <a name="unique"></a> `unique`
 
-Removes duplicate elements that are adjacent to each other in a specified range.
+Removes duplicate elements that are next to each other in a specified range.
 
 ```cpp
 template<class ForwardIterator>
@@ -9365,15 +9847,15 @@ A forward iterator to the new end of the modified sequence that contains no cons
 
 Both forms of the algorithm remove the second duplicate of a consecutive pair of equal elements.
 
-The operation of the algorithm is stable so that the relative order of the undeleted elements is not changed.
+The operation of the algorithm is stable so that the relative order of the undeleted elements isn't changed.
 
-The range referenced must be valid; all pointers must be dereferenceable and within the sequence the last position is reachable from the first by incrementation. The number of elements in the sequence is not changed by the algorithm `unique` and the elements beyond the end of the modified sequence are dereferenceable but not specified.
+The range referenced must be valid; all pointers must be dereferenceable and within the sequence the last position is reachable from the first by incrementation. The number of elements in the sequence isn't changed by the algorithm `unique` and the elements beyond the end of the modified sequence are dereferenceable but not specified.
 
 The complexity is linear, requiring `(last - first) - 1` comparisons.
 
 List provides a more efficient member function "unique", which may perform better.
 
-These algorithms cannot be used on an associative container.
+These algorithms can't be used on an associative container.
 
 ### Example
 
@@ -9464,7 +9946,7 @@ Removing adjacent elements satisfying the binary
 
 ## <a name="unique_copy"></a> `unique_copy`
 
-Copies elements from a source range into a destination range except for the duplicate elements that are adjacent to each other.
+Copies elements from a source range into a destination range except for the duplicate elements that are next to each other.
 
 ```cpp
 template<class InputIterator, class OutputIterator>
@@ -9521,7 +10003,7 @@ An output iterator addressing the position one past the final element in the des
 
 Both forms of the algorithm remove the second duplicate of a consecutive pair of equal elements.
 
-The operation of the algorithm is stable so that the relative order of the undeleted elements is not changed.
+The operation of the algorithm is stable so that the relative order of the undeleted elements isn't changed.
 
 The ranges referenced must be valid; all pointers must be dereferenceable and within a sequence the last position is reachable from the first by incrementation.
 
@@ -9599,9 +10081,20 @@ int main() {
 }
 ```
 
+```Output
+Vector v1 is
+ ( 5 -5 5 -5 4 4 4 7 10 10 10 10 10 10 ).
+Copying the first half of the vector to the second half
+ while removing adjacent duplicates gives
+ ( 5 -5 5 -5 4 4 4 7 5 -5 5 -5 4 7 ).
+Copying the first half of the vector to the second half
+  removing adjacent duplicates under mod_equals gives
+ ( 5 -5 5 -5 4 4 4 7 5 -5 5 -5 4 7 5 4 7 5 4 7 ).
+```
+
 ## <a name="upper_bound"></a> `upper_bound`
 
-Finds the position of the first element in an ordered range that has a value that is greater than a specified value, where the ordering criterion may be specified by a binary predicate.
+Finds the position of the first element in an ordered range that has a value that's greater than a specified value. A binary predicate specifies the ordering criterion.
 
 ```cpp
 template<class ForwardIterator, class Type>
@@ -9642,9 +10135,9 @@ The sorted source range referenced must be valid; all iterators must be derefere
 
 A sorted range is a precondition of the use of `upper_bound` and where the ordering criterion is the same as specified by the comparison predicate.
 
-The range is not modified by `upper_bound`.
+The range isn't modified by `upper_bound`.
 
-The value types of the forward iterators need be less-than comparable to be ordered, so that, given two elements, it may be determined either that they are equivalent (in the sense that neither is less than the other) or that one is less than the other. This results in an ordering between the nonequivalent elements
+The value types of the forward iterators must be less-than comparable to be ordered. That is, given two elements, you can determine either that one is less than the other, or that they're equivalent. (Here, equivalent means that neither is less than the other.) This comparison results in an ordering between the nonequivalent elements.
 
 The complexity of the algorithm is logarithmic for random-access iterators and linear otherwise, with the number of steps proportional to (`last - first`).
 
@@ -9736,4 +10229,17 @@ int main()
     cout << "The upper_bound in v3 for the element with a value of 3 is: "
         << *Result << "." << endl;
 }
+```
+
+```Output
+Starting vector v1 = ( -1 0 1 2 3 4 -3 -2 -1 0 ).
+Original vector v1 with range sorted by the
+ binary predicate less than is v1 = ( -3 -2 -1 -1 0 0 1 2 3 4 ).
+Original vector v2 with range sorted by the
+ binary predicate greater is v2 = ( 4 3 2 1 0 0 -1 -1 -2 -3 ).
+Original vector v3 with range sorted by the
+ binary predicate mod_lesser is v3 = ( 0 0 -1 -1 1 -2 2 -3 3 4 ).
+The upper_bound in v1 for the element with a value of 3 is: 4.
+The upper_bound in v2 for the element with a value of 3 is: 2.
+The upper_bound in v3 for the element with a value of 3 is: 4.
 ```

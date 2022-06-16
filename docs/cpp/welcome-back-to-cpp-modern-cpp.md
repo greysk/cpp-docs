@@ -1,7 +1,7 @@
 ---
 title: "Welcome back to C++ - Modern C++"
 description: "Describes the new programming idioms in Modern C++ and their rationale."
-ms.date: 02/07/2022
+ms.date: 06/02/2022
 ms.topic: "conceptual"
 ms.assetid: 1cb1b849-ed9c-4721-a972-fd8f3dab42e2
 ---
@@ -24,15 +24,15 @@ To support easy adoption of RAII principles, the C++ Standard Library provides t
 class widget
 {
 private:
-    std::unique_ptr<int> data;
+    std::unique_ptr<int[]> data;
 public:
-    widget(const int size) { data = std::make_unique<int>(size); }
+    widget(const int size) { data = std::make_unique<int[]>(size); }
     void do_something() {}
 };
 
 void functionUsingWidget() {
-    widget w(1000000);   // lifetime automatically tied to enclosing scope
-                // constructs w, including the w.data gadget member
+    widget w(1000000);  // lifetime automatically tied to enclosing scope
+                        // constructs w, including the w.data gadget member
     // ...
     w.do_something();
     // ...
@@ -142,7 +142,7 @@ Macros in C and C++ are tokens that are processed by the preprocessor before com
 constexpr int size = 10; // modern C++
 ```
 
-### Uniform initialization
+## Uniform initialization
 
 In modern C++, you can use brace initialization for any type. This form of initialization is especially convenient when initializing arrays, vectors, or other containers. In the following example, `v2` is initialized with three instances of `S`. `v3` is initialized with three instances of `S` that are themselves initialized using braces. The compiler infers the type of each element based on the declared type of `v3`.
 
@@ -185,7 +185,7 @@ Modern C++ provides *move semantics*, which make it possible to eliminate unnece
 
 ## Lambda expressions
 
-In C-style programming, a function can be passed to another function by using a *function pointer*. Function pointers are inconvenient to maintain and understand. The function they refer to may be defined elsewhere in the source code, far away from the point at which it's invoked. Also, they're not type-safe. Modern C++ provides *function objects*, classes that override the [`operator()`](function-call-operator-parens.md) operator, which enables them to be called like a function. The most convenient way to create function objects is with inline [lambda expressions](../cpp/lambda-expressions-in-cpp.md). The following example shows how to use a lambda expression to pass a function object, that the `for_each` function will invoke on each element in the vector:
+In C-style programming, a function can be passed to another function by using a *function pointer*. Function pointers are inconvenient to maintain and understand. The function they refer to may be defined elsewhere in the source code, far away from the point at which it's invoked. Also, they're not type-safe. Modern C++ provides *function objects*, classes that override the [`operator()`](function-call-operator-parens.md) operator, which enables them to be called like a function. The most convenient way to create function objects is with inline [lambda expressions](../cpp/lambda-expressions-in-cpp.md). The following example shows how to use a lambda expression to pass a function object, that the `find_if` function will invoke on each element in the vector:
 
 ```cpp
     std::vector<int> v {1,2,3,4,5};
